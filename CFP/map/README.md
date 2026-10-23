@@ -51,8 +51,9 @@ These counts were checked twice: once in R and once separately in Python (pandas
   - 2 km for border towns: Guben, Ostritz, Konstanz and Freilassing are all at most
     1.4 km across the simplified border. The nearest truly foreign location in the data
     is 21.8 km away.
-- **Two text fixes:** lat/long are stored as text in the source file, and two values use
-  a decimal comma. Both were converted to numbers.
+- **Two text fixes:** lat/long are stored as text in the source file, and two rows use a
+  decimal comma: Rendsburg (2 events) and Rotenburg an der Wümme (1 event). These were
+  converted to numbers, so both places are drawn.
 
 ## Data-quality flags (left unchanged in the data, reported here)
 
@@ -60,5 +61,3 @@ These counts were checked twice: once in R and once separately in Python (pandas
   Norway, so this event is treated as abroad.
 - Sweden, "Bohuslän": the coordinates (60.13 N, 18.64 E) are on the Uppland coast, not
   in Bohuslän on the west coast. The point is drawn where the coordinates put it.
-- Germany: "Rendsburg" (2 events) and "Rotenburg an der Wümme" (1 event) have no
-  coordinates, so they are not drawn.
