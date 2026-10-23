@@ -7,6 +7,8 @@ Reproduce from the repository root with `Rscript CFP/map/01_protest_map.R`
 
 | File | Use |
 |---|---|
+| `fig1_landscape_map_and_totals.{pdf,png,tiff}` | **Landscape figure, 6.5 × 5.0 in (about half a letter page).** Panel A is the location map and panel B ranks the country totals with their shares. It has its own title and note. |
+| `fig1_landscape_map_and_totals_clean.{pdf,png,tiff}` | Same landscape figure with no title or note, 6.5 × 4.5 in. |
 | `fig1_protest_locations_map.{pdf,png,tiff}` | Main figure: country totals in the labels, event locations as circles. It has its own title and note. |
 | `fig1_protest_locations_map_clean.{pdf,png,tiff}` | Same map with no title or note. Use this one when the caption goes in the manuscript. |
 | `fig1b_protest_totals_choropleth[_clean].{pdf,png}` | Alternative figure: a choropleth of the country totals only. |
@@ -14,7 +16,7 @@ Reproduce from the repository root with `Rscript CFP/map/01_protest_map.R`
 | `table_location_counts.csv` | The numbers behind the circles. |
 | `qa_events_not_mapped.csv` | Every event that is counted in the totals but not drawn, with the reason. |
 
-Size: 6.5 in wide, which fits a US-letter page with 1-inch margins. The PDFs are vector
+Size: all figures are 6.5 in wide, which fits a US-letter page with 1-inch margins. The PDFs are vector
 with embedded fonts. The PNG and TIFF files are 600 dpi.
 
 ## Counts (by `countryname`, the country of coding)

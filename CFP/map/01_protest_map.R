@@ -290,4 +290,101 @@ p2 <- ggplot() +
 save_fig(p2, "fig1b_protest_totals_choropleth", h = 8.6)
 save_fig(p2 + no_text, "fig1b_protest_totals_choropleth_clean", h = 8.35)
 
+# -----------------------------------------------------------------------------
+# 8. Figure 1, landscape: location map (left) + ranked country totals (right)
+#    The Spain-to-Sweden extent is taller than wide (about 1.3:1), so a
+#    north-up map cannot fill a landscape frame without shrinking the six
+#    countries; the freed width carries the totals as a bar chart instead.
+# -----------------------------------------------------------------------------
+library(patchwork)
+
+# Same anchors as the portrait map, except Poland's label is pulled in from the edge
+poland_ls <- st_coordinates(st_transform(st_sfc(st_point(c(21.3, 56.6)), crs = 4326), crs_eu))
+lab_ls <- lab |>
+  mutate(label = country,
+         lx = ifelse(country == "Poland", poland_ls[1, "X"], lx),
+         ly = ifelse(country == "Poland", poland_ls[1, "Y"], ly))
+xlim_ls <- c(2640000, 5360000)   # trimmed to the six countries' extent
+ylim_ls <- c(1560000, 5170000)
+
+p_map_ls <- ggplot() +
+  geom_sf(data = world, fill = col_land, colour = col_border, linewidth = 0.15) +
+  geom_sf(data = focus_poly, fill = col_focus, colour = col_focus_bd, linewidth = 0.3) +
+  geom_sf(data = loc, aes(size = events),
+          shape = 21, fill = alpha(col_dot, 0.45), colour = col_dot, stroke = 0.2) +
+  geom_segment(data = lab_ls, aes(x = lx, y = ly, xend = cx, yend = cy),
+               colour = "grey20", linewidth = 0.2) +
+  geom_label(data = lab_ls, aes(x = lx, y = ly, label = label),
+             family = base_family, size = 2.4, fontface = "bold",
+             fill = "white", colour = "grey10", label.size = 0.2,
+             label.padding = unit(0.12, "lines"), label.r = unit(0.05, "lines")) +
+  scale_size_area(name = "Events per\nlocation", max_size = 8.5,
+                  breaks = size_breaks, labels = fmt) +
+  guides(size = guide_legend(override.aes = list(fill = alpha(col_dot, 0.45)))) +
+  coord_sf(crs = crs_eu, xlim = xlim_ls, ylim = ylim_ls, expand = FALSE, datum = NA) +
+  labs(title = "A. Location of events") +
+  theme_map +
+  theme(plot.title = element_text(face = "bold", size = 8.5, margin = margin(b = 3)),
+        legend.title = element_text(size = 6.5, face = "bold"),
+        legend.text  = element_text(size = 6.5),
+        legend.key.size = unit(0.32, "cm"),
+        legend.margin = margin(3, 4, 3, 4),
+        plot.margin = margin(0, 4, 0, 0))
+
+bar_df <- totals |>
+  mutate(share = events / n_total,
+         country = factor(country, levels = rev(country)),
+         value_lab = paste0(fmt(events), " (", label_percent(accuracy = 0.1)(share), ")"))
+stopifnot(sum(bar_df$events) == n_total)
+
+p_bar <- ggplot(bar_df, aes(x = events, y = country)) +
+  geom_col(fill = col_dot, width = 0.62) +
+  geom_text(aes(label = value_lab), hjust = -0.08, size = 2.5,
+            family = base_family, colour = "grey10") +
+  scale_x_continuous(name = "Number of protest events, 2008–2021",
+                     labels = fmt, breaks = seq(0, 1500, 500),
+                     limits = c(0, 2150), expand = expansion(mult = c(0, 0))) +
+  labs(y = NULL, title = "B. Total events by country") +
+  theme_minimal(base_family = base_family, base_size = 8) +
+  theme(plot.title = element_text(face = "bold", size = 8.5, margin = margin(b = 3)),
+        plot.title.position = "plot",
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor   = element_blank(),
+        panel.grid.major.x = element_line(colour = "grey88", linewidth = 0.25),
+        axis.text.y  = element_text(size = 8, colour = "grey10", face = "bold"),
+        axis.text.x  = element_text(size = 7, colour = "grey30"),
+        axis.title.x = element_text(size = 7, colour = "grey30", margin = margin(t = 4)),
+        axis.line.x  = element_line(colour = "grey40", linewidth = 0.3),
+        plot.margin  = margin(0, 2, 0, 8))
+
+caption_ls <- paste0(
+  "Note: Unit = protest event, attributed to the country of coding; N = ", fmt(n_total),
+  ". Panel A shows the primary location of the ", fmt(nrow(mapped)),
+  " events held inside the\ncoding country; ", nrow(not_mapped),
+  " events are counted in panel B but not drawn (no coordinates, online or unknown: ",
+  n_status("No coordinates (incl. Online/Unknown)"), "; nationwide: ",
+  n_status("Nationwide (no single location)"), "; abroad or at sea: ",
+  n_status("Outside the coding country"), ").\n",
+  "Source: CFP – Comparative Far-Right Protest database, V1-2026 (Castelli Gattinara et al. 2026). ",
+  "Boundaries: Natural Earth 1:50m; projection ETRS89-LAEA."
+)
+
+p_ls <- (p_map_ls | p_bar) +
+  plot_layout(widths = c(1.15, 1)) +
+  plot_annotation(
+    title = "Far-right protest events in six European countries, 2008–2021",
+    caption = caption_ls,
+    theme = theme(
+      plot.title   = element_text(family = base_family, face = "bold", size = 10.5,
+                                  margin = margin(b = 6)),
+      plot.caption = element_text(family = base_family, size = 6, colour = "grey30",
+                                  hjust = 0, lineheight = 1.15, margin = margin(t = 6)),
+      plot.margin  = margin(6, 6, 6, 6)))
+
+p_ls_clean <- (p_map_ls | p_bar) + plot_layout(widths = c(1.15, 1)) +
+  plot_annotation(theme = theme(plot.margin = margin(4, 4, 4, 4)))
+
+save_fig(p_ls,       "fig1_landscape_map_and_totals",       w = 6.5, h = 5.0, tiff = TRUE)
+save_fig(p_ls_clean, "fig1_landscape_map_and_totals_clean", w = 6.5, h = 4.5, tiff = TRUE)
+
 writeLines(capture.output(sessionInfo()), file.path(out_dir, "sessionInfo.txt"))
