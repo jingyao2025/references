@@ -1,0 +1,529 @@
+"countryname","place","lat_n","lon_n","events"
+"Germany","Berlin",52.5200089993994,13.4049511771772,333
+"Germany","Dresden",51.0504088,13.7372621,101
+"Spain","Madrid",40.4167754,-3.7037902,95
+"Poland","Warszawa",52.2296756,21.0122287,86
+"Sweden","Stockholm",59.3293235,18.0685808,75
+"Germany","Hamburg",53.5488282,9.9871703,72
+"Austria","Wien",48.2081743,16.3738189,59
+"Spain","Barcelona",41.3873974,2.168568,54
+"Germany","Bremen",53.0792962,8.8016937,39
+"Germany","Chemnitz",50.8282222,12.9208547,35
+"Germany","Dortmund",51.5135872,7.4652981,34
+"Germany","Leipzig",51.3396955,12.3730747,32
+"Poland","Wrocław",51.1078852,17.0385376,32
+"Spain","Valencia",39.4699075,-0.3762881,32
+"Germany","Braunschweig",52.2688736,10.5267696,30
+"Germany","Hannover",52.3758916,9.7320104,25
+"Sweden","Visby",57.6348,18.29484,21
+"Germany","Köln",50.937531,6.9602786,20
+"Germany","München",48.1351253,11.5819806,18
+"Germany","Potsdam",52.3905689,13.0644729,18
+"Netherlands","The Hague",52.0704978,4.3006999,18
+"Germany","Magdeburg",52.1205333,11.6276237,17
+"Sweden","Goteborg",57.70887,11.97456,17
+"Germany","Erfurt",50.9847679,11.0298799,16
+"Germany","Kiel",54.3232927,10.1227652,14
+"Germany","Stuttgart",48.7758459,9.1829321,13
+"Germany","Cottbus",51.7563108,14.3328679,13
+"Poland","Poznań",52.406374,16.9251681,12
+"Poland","Białystok",53.1324886,23.1688403,12
+"Germany","Rostock",54.0924406,12.0991466,11
+"Poland","Kraków",50.0646501,19.9449799,11
+"Germany","Freital",51.0008667,13.6512413,10
+"Germany","Bad Nenndorf",52.3378757,9.3743625,10
+"Germany","Guestrow",53.8002129,12.1745703,10
+"Netherlands","Enschede",52.2215372,6.8936619,10
+"Poland","Katowice",50.2648919,19.0237815,10
+"Poland","Łódź",51.7592485,19.4559833,10
+"Sweden","Malmö",55.604981,13.003822,10
+"Germany","Wismar",53.8879706,11.4621371,9
+"Germany","Neumuenster",54.0729431,9.9840158,9
+"Netherlands","Utrecht",52.0907374,5.1214201,9
+"Austria","Graz",47.070714,15.439504,8
+"Germany","Duisburg",51.4344079,6.7623293,8
+"Germany","Halle",51.4953567,11.9662371,8
+"Netherlands","Amsterdam",52.3675734,4.9041389,8
+"Poland","Lublin",51.2464536,22.5684463,8
+"Poland","Gdańsk",54.3520252,18.6466384,8
+"Sweden","Ludvika",60.152358,15.191639,8
+"Germany","Plauen",50.4976133,12.1368679,7
+"Germany","Bonn",50.73743,7.0982068,7
+"Germany","Gera",50.8850706,12.0807203,7
+"Germany","Goettingen",51.5412804,9.9158035,7
+"Germany","Schwerin",53.6355022,11.4012499,7
+"Germany","Luebeck",53.8654673,10.6865593,7
+"Spain","Sevilla",37.3890924,-5.9844589,7
+"Sweden","Norrköping",58.587745,16.192421,7
+"Germany","Freiberg",50.9160943,13.3468175,6
+"Germany","Weimar",50.9794934,11.3235439,6
+"Germany","Hansestadt",51.165691,10.451526,6
+"Germany","Düsseldorf",51.2277411,6.7734556,6
+"Netherlands","Rotterdam",51.9244201,4.4777325,6
+"Spain","Salt",41.9700647,2.7929203,6
+"Austria","Linz",48.30694,14.28583,5
+"Germany","Wuerzburg",49.7913044,9.9533548,5
+"Germany","Frankfurt am Main",50.1109221,8.6821267,5
+"Germany","Zwickau",50.7069243,12.4591138,5
+"Germany","Meerane",50.8472857,12.4637223,5
+"Germany","Kassel",51.3127114,9.4797461,5
+"Germany","Wurzen",51.3698806,12.7436557,5
+"Germany","Hoyerswerda",51.4388605,14.2536419,5
+"Germany","Duderstadt",51.5096571,10.2535104,5
+"Germany","Gelsenkirchen",51.5187651,7.0838411,5
+"Germany","Frankfurt Oder",52.3472237,14.5505673,5
+"Germany","Nauen",52.6069165,12.8814887,5
+"Germany","Boizenburg",53.3802724,10.7206776,5
+"Germany","Anklam",53.8502906,13.6959731,5
+"Netherlands","Eindhoven",51.4231423,5.4622897,5
+"Netherlands","Nijmegen",51.8448837,5.8428281,5
+"Netherlands","Almere",52.3507849,5.2647016,5
+"Poland","Częstochowa",50.8118195,19.1203094,5
+"Poland","Hajnówka",52.74514,23.58165,5
+"Spain","Granada",37.1774605,-3.5984368,5
+"Sweden","Lund",55.7046601,13.1910073,5
+"Sweden","Jönköping",57.7826137,14.1617876,5
+"Sweden","Eskilstuna",59.3712486,16.5098045,5
+"Germany","Freiburg",47.9990077,7.8421043,4
+"Germany","Kandel",49.0867052,8.1658801,4
+"Germany","Gräfenberg",49.6446826,11.2467055,4
+"Germany","Mainz",49.9928617,8.2472526,4
+"Germany","Schneeberg",50.5954901,12.6386475,4
+"Germany","Stolberg",50.7730884,6.2251934,4
+"Germany","Jena",50.927054,11.5892372,4
+"Germany","Troeglitz",51.0590131,12.1817254,4
+"Germany","Wuppertal",51.2562128,7.1507636,4
+"Germany","Northeim",51.7013769,9.995866,4
+"Germany","Dessau",51.8308166,12.2423302,4
+"Germany","Halberstadt",51.8916475,11.0488695,4
+"Germany","Hildesheim",52.154778,9.9579652,4
+"Germany","Brandenburg",52.4125287,12.5316444,4
+"Germany","Wolfsburg",52.4226503,10.7865461,4
+"Germany","Oldenburg",53.1434501,8.2145521,4
+"Germany","Lüneburg",53.2478704,10.4160637,4
+"Germany","Wilhelmshaven",53.5323403,8.1068722,4
+"Germany","Bremerhaven",53.5395845,8.5809424,4
+"Germany","Demmin",53.9056285,13.0498414,4
+"Germany","Greifswald",54.0865463,13.3923414,4
+"Netherlands","Arnhem",51.9851034,5.8987296,4
+"Poland","Radom",51.4027236,21.1471333,4
+"Poland","Szczecin",53.4285438,14.5528116,4
+"Spain","Sabadell",41.5462745,2.1086131,4
+"Sweden","Salem",59.20768,17.7742216,4
+"Austria","Klagenfurt",46.6364598,14.3122246,3
+"Germany","Passau",48.5667364,13.4319466,3
+"Germany","Wunsiedel",50.0399087,12.0039306,3
+"Germany","Themar",50.5033639,10.6177162,3
+"Germany","Heidenau",50.9758426,13.8661223,3
+"Germany","Thuringia",51.0109892,10.845346,3
+"Germany","Bautzen",51.182293,14.4237749,3
+"Germany","Spremberg",51.5696303,14.376813,3
+"Germany","Wittenberg",51.8704643,12.6411506,3
+"Germany","Guben",51.9514863,14.695565,3
+"Germany","Muenster",51.9606649,7.6261347,3
+"Germany","Niederschoeneweide",52.4548799,13.5121268,3
+"Germany","Oranienburg",52.7557351,13.2408643,3
+"Germany","Kirchweyhe",52.9841307,8.8574646,3
+"Germany","Delmenhorst",53.0521886,8.6355932,3
+"Netherlands","Leiden",52.1601144,4.4970097,3
+"Netherlands","Apeldoorn",52.211157,5.9699231,3
+"Netherlands","Zaandam",52.4420399,4.8291992,3
+"Poland","Opole",50.6683223,17.9230651,3
+"Poland","Kalisz",51.7672799,18.0853462,3
+"Spain","L'Hospitalet de Llobregat",41.3661865,2.1164942,3
+"Spain","Manresa",41.7211121,1.8164413,3
+"Spain","Girona",41.9794005,2.8214264,3
+"Spain","A Coruña",43.3623436,-8.4115401,3
+"Sweden","Munkedal",58.4715051,11.6801923,3
+"Sweden","Tärnsjö",60.1554628,16.9308825,3
+"Sweden","Borlänge",60.484304,15.433969,3
+"Sweden","Umeå",63.8258471,20.2630354,3
+"Austria","Kaernten",46.722203,14.1805881,2
+"Austria","Tirol",47.2537414,11.601487,2
+"Germany","Villingen",48.0594021,8.4640869,2
+"Germany","Kirchheim",48.8779259,10.400114,2
+"Germany","Karlsruhe",49.0068901,8.4036527,2
+"Germany","Nuremberg",49.4521018,11.0766654,2
+"Germany","Fürth",49.4771169,10.988667,2
+"Germany","Mannheim",49.4881736,8.46760325,2
+"Germany","Trier",49.749992,6.6371433,2
+"Germany","Wiesbaden",50.0782184,8.2397608,2
+"Germany","Hessen",50.6520515,9.1624376,2
+"Germany","Greiz",50.6556322,12.2021724,2
+"Germany","Poessneck",50.6968663,11.5968389,2
+"Germany","Kahla",50.800241,11.5837085,2
+"Germany","Dippoldiswalde",50.8951322,13.6684411,2
+"Germany","Clausnitz",50.9408994,12.8904355,2
+"Germany","Altenburg",50.9931202,12.4366572,2
+"Germany","Ostritz",51.0157364,14.9314311,2
+"Germany","Essen",51.4556432,7.0115552,2
+"Germany","Nordhausen",51.4983551,10.7931122,2
+"Germany","Bitterfeld-Wolfen",51.6914384,12.264448,2
+"Germany","Paderborn",51.7189205,8.7575093,2
+"Germany","Koethen",51.7505762,11.9802357,2
+"Germany","Goslar",51.90425,10.42766,2
+"Germany","Lieberose",51.9829088,14.2986998,2
+"Germany","Joeterbog",51.9964734,13.0756312,2
+"Germany","Salzhemmendorf",52.0664627,9.5864952,2
+"Germany","Salzgitter",52.1378659,10.3899126,2
+"Germany","Bad Belzig",52.1427265,12.5951797,2
+"Germany","Zossen",52.2169747,13.453792,2
+"Germany","Storkow",52.2536713,13.9396311,2
+"Germany","Osnabrück",52.2799112,8.0471788,2
+"Germany","Koenigs Wusterhausen",52.2958906,13.6228382,2
+"Germany","Blankenfelde",52.3480918,13.4036096,2
+"Germany","Erkner",52.4244119,13.7497832,2
+"Germany","Havelland",52.6045457,12.3371324,2
+"Germany","Celle",52.6263797,10.080865,2
+"Germany","Buch",52.641401,13.496539,2
+"Germany","Eschede",52.7339196,10.233842,2
+"Germany","Eberswalde",52.837133,13.7875871,2
+"Germany","Bad Fallingbostel",52.8667555,9.6957633,2
+"Germany","Havel",52.8994912252041,12.6978231355005,2
+"Germany","Weyhe",52.9830237,8.8505317,2
+"Germany","Joachimstahl",52.9781724,13.7455599,2
+"Germany","Blumenthal",53.1972015,8.5529209,2
+"Germany","Pasewalk",53.5038857,13.999031,2
+"Germany","Gadebusch",53.7015558,11.115704,2
+"Germany","Teterow",53.7752476,12.5748239,2
+"Germany","Rendsburg",54.30663,9.66313,2
+"Germany","Stralsund",54.3090654,13.0770347,2
+"Netherlands","Maastricht",50.8513682,5.6909725,2
+"Netherlands","Roosendaal",51.535849,4.4653213,2
+"Netherlands","Steenbergen",51.5812395,4.3155991,2
+"Netherlands","Tilburg",51.5852528,5.056375,2
+"Netherlands","Heesch",51.7317098,5.5278266,2
+"Netherlands","Oss",51.7611801,5.5140482,2
+"Netherlands","Dordrecht",51.8132979,4.6900929,2
+"Netherlands","Purmerend",52.5143815,4.9640611,2
+"Netherlands","Oude Pekela",53.1032425,7.0064744,2
+"Netherlands","Groningen",53.2193835,6.5665018,2
+"Poland","Toruń",53.0137902,18.5984437,2
+"Poland","Jedwabne",53.2852876,22.2999336,2
+"Spain","Navas de San Juan",38.1842504,-3.3149708,2
+"Spain","Burjassot",39.5096699,-0.4135963,2
+"Spain","Onda",39.9604442,-0.2432307,2
+"Spain","Coslada",40.4260459,-3.5651646,2
+"Spain","Torrejon",40.4567552,-3.4754967,2
+"Spain","Alcala de Henares",40.4843898,-3.3688023,2
+"Spain","Galapagar",40.5768377,-4.0058027,2
+"Spain","San Lorenzo de El Escorial",40.5932386,-4.1475748,2
+"Spain","Felgueras",43.1254826,-5.796855,2
+"Sweden","Landskrona",55.8703477,12.8300802,2
+"Sweden","Scania (region)",55.9902572,13.5957692,2
+"Sweden","Tjörnarp",55.9961699,13.6282372,2
+"Sweden","Nyköping",58.7528439,17.0091593,2
+"Sweden","Arboga",59.3936883,15.8381747,2
+"Sweden","Karlstad",59.4021806,13.5114977,2
+"Sweden","Västerås",59.6099005,16.5448091,2
+"Sweden","Uppsala",59.8585638,17.6389267,2
+"Sweden","Malung",60.686372,13.720966,2
+"Austria","Baerental",46.47651,14.16218,1
+"Austria","Villach",46.60856,13.85062,1
+"Austria","Gurk",46.8744954,14.2879835,1
+"Austria","Judeburg",47.16826,14.65811,1
+"Austria","Volarlberg",47.2497427,9.9797373,1
+"Austria","Springfeld",47.516231,14.550072,1
+"Austria","Ebensee",47.8071383,13.779037,1
+"Austria","Gols",47.8990111,16.9093319,1
+"Austria","Traiskirchen",48.0160435,16.2939617,1
+"Austria","Frankenburg",48.0675753,13.4909289,1
+"Austria","Himberg bei Wien",48.0827839,16.4446941,1
+"Austria","Kueniglberg",48.1799878,16.2886112,1
+"Austria","Sankt Poelten",48.20353,15.63817,1
+"Austria","Mauthausen",48.2437859,14.5160622,1
+"Austria","Braunau am Inn",48.25573,13.04432,1
+"Austria","Ulrichsberg",48.677855,13.9100272,1
+"Germany","Konstanz",47.66033,9.17582,1
+"Germany","Konstanz",47.6779808,9.1736741,1
+"Germany","Freilassing",47.8419982,12.9728226,1
+"Germany","Prien",47.8561815,12.3490983,1
+"Germany","Ulm, Mainz, Neubrandenburg, Hamburg, Rotenburg, Itzehoe, Verden, Dortmund, Rostock, Frankfurt Oder",48.40108,9.987608,1
+"Germany","Offenburg",48.473451,7.9498017,1
+"Germany","Baden-Württemberg",48.5,9,1
+"Germany","Bergendorf",48.6153357,10.9789291,1
+"Germany","Reichertshofen",48.6570298,11.4678498,1
+"Germany","Wallersdorf",48.73591,12.7493,1
+"Germany","Hepberg",48.822745,11.4612756,1
+"Germany","Woerther",48.9032153,12.5682129,1
+"Germany","Weissach im Tal",48.929112,9.4766284,1
+"Germany","Nordheim",49.1079949,9.1316267,1
+"Germany","Heilbronn",49.1426929,9.210879,1
+"Germany","Herxheim",49.1456391,8.2135861,1
+"Germany","Hinterweidenthal",49.1941456,7.7537727,1
+"Germany","Ansbach",49.3004246,10.5719357,1
+"Germany","Neustadt",49.3501864,8.1486886,1
+"Germany","Neckargemuend",49.3866401,8.802281,1
+"Germany","Limburgerhof",49.4207609,8.3900307,1
+"Germany","Kaiserslautern",49.4400657,7.7491265,1
+"Germany","Ludwigshafen",49.4774018,8.4447451,1
+"Germany","Vorra",49.5575603,11.4906607,1
+"Germany","Erlangen",49.5896744,11.0119611,1
+"Germany","Hoppenheim",49.6430169,8.6675419,1
+"Germany","Bamberg",49.8988135,10.9027636,1
+"Germany","Niederstedem",49.9305304,6.4974272,1
+"Germany","Ingelheim",49.97756,8.07246,1
+"Germany","Aschaffenburg",49.9806625,9.1355554,1
+"Germany","Landscheid",49.9880659,6.7730961,1
+"Germany","Warmensteinach",49.9946518,11.7782413,1
+"Germany","Dietzenbach",50.0172906,8.7869609,1
+"Germany","Dreieich",50.0294877,8.6949231,1
+"Germany","Friedberg",50.3308526,8.7510993,1
+"Germany","Koblenz",50.3569429,7.5889959,1
+"Germany","Auerbach",50.5079692,12.3981373,1
+"Germany","Bad Neuenahr-Ahrweiler",50.54322,7.1113,1
+"Germany","Fulda",50.5558095,9.6808449,1
+"Germany","Schlettau",50.5578866,12.9519534,1
+"Germany","Giessen",50.5840512,8.6784031,1
+"Germany","Suhl",50.6076846,10.6881255,1
+"Germany","Saalfeld",50.6492736,11.3661502,1
+"Germany","Wasungen",50.6602548,10.3730384,1
+"Germany","Jahnsdorf",50.7460399,12.8544599,1
+"Germany","Altenberg",50.765332,13.7540452,1
+"Germany","Aachen",50.7753455,6.0838868,1
+"Germany","Ilmtal",50.7753052,11.0809079,1
+"Germany","Siegburg",50.7998473,7.2074514,1
+"Germany","Siegen",50.8838492,8.0209591,1
+"Germany","Walterhausen",50.9003774,10.5607552,1
+"Germany","Wohratal",50.9351956,8.9469104,1
+"Germany","Lunzenau",50.9623091,12.7509711,1
+"Germany","Pirna",50.9625175,13.9419169,1
+"Germany","Geilenkirchen",50.967168,6.1174584,1
+"Germany","Sebnitz",50.9709117,14.273873,1
+"Germany","Eisenach",50.9795715,10.3146872,1
+"Germany","Schwalm-Eder",51.0312526,9.4133656,1
+"Germany","Ballstaedt",51.0341041,10.7166365,1
+"Germany","Leverkusen, Leichlingen, Dormagen, Köln",51.0459248,7.0192196,1
+"Germany","Rochlitz",51.0506956,12.7944283,1
+"Germany","Arnsdorf",51.0944429,13.9905116,1
+"Germany","Doebeln",51.1229322,13.1167196,1
+"Germany","Meissen",51.1617842,13.4976592,1
+"Germany","Solingen",51.1652199,7.0671161,1
+"Germany","Moenchengladbach",51.1941686,6.4315392,1
+"Germany","Laucha",51.2242681,11.6731446,1
+"Germany","Kamenz",51.2749068,14.1024881,1
+"Germany","Lohfelden",51.2761574,9.5463023,1
+"Germany","Altena",51.3015239,7.6714387,1
+"Germany","Fetterode",51.3192845,10.0078197,1
+"Germany","Bradnis",51.3329895,12.6086017,1
+"Germany","Merseburg",51.3563278,11.9917462,1
+"Germany","Hagen",51.3670777,7.4632841,1
+"Germany","Sonderhausen",51.3691898,10.8710502,1
+"Germany","Iserlohn; Munich; Bad Homburg",51.37547,7.70281,1
+"Germany","Heilbad Heiligenstadt",51.3770297,10.1439107,1
+"Germany","Schkeuditz",51.3944697,12.2240071,1
+"Germany","Groeditz",51.4110818,13.4471558,1
+"Germany","Nordrhein-Westfalen",51.4332367,7.6615938,1
+"Germany","Bischhagen",51.4259411,10.0939039,1
+"Germany","Witten",51.4438926,7.353197,1
+"Germany","Elsterwerda",51.4632578,13.5202201,1
+"Germany","Bochum",51.48184,7.216236,1
+"Germany","Reinhardswald",51.523373,9.5555183,1
+"Germany","Torgau",51.557934,12.991583,1
+"Germany","Moringen",51.699263,9.8691352,1
+"Germany","Kessel",51.7066015,6.0763365,1
+"Germany","Osterode",51.7293769,10.2580311,1
+"Germany","Kleve",51.786726,6.12954,1
+"Germany","Quedlinburg",51.7920562,11.141448,1
+"Germany","Einbeck, Hardegsen",51.8205718,9.8683087,1
+"Germany","Dessau-Roßlau",51.8428278,12.2303935,1
+"Germany","Guersloh",51.9032375,8.3857535,1
+"Germany","Glosar, Salzgitter",51.9059531,10.4289963,1
+"Germany","Coesfeld",51.9382944,7.1675831,1
+"Germany","Luebben",51.9410767,13.8911712,1
+"Germany","Bielefeld",52.0302285,8.5324708,1
+"Germany","Oschersleben",52.0271323,11.22858,1
+"Germany","Rabenstein",52.0544515,12.6242648,1
+"Germany","Reuden",52.0648253,12.3006093,1
+"Germany","Hameln",52.1042035,9.3616,1
+"Germany","Eisenhuettenstadt, Fuerstenwalde",52.1436615,14.6419022,1
+"Germany","Moeckern",52.1523392,11.9539291,1
+"Germany","Wolfenbuettel",52.160443,10.5342445,1
+"Germany","Paetz",52.2147244,13.6636394,1
+"Germany","Porta Westfalica",52.2253083,8.9402185,1
+"Germany","Bestensee",52.250988,13.6402796,1
+"Germany","Bad Saarow",52.2742962,14.0546568,1
+"Germany","Haldensleben",52.2827293,11.4170506,1
+"Germany","Peine",52.3204095,10.243267,1
+"Germany","Werder",52.3647941,12.8700716,1
+"Germany","Bohmte",52.3659727,8.3159899,1
+"Germany","Wassmannsdorf",52.3784282,13.4677012,1
+"Germany","Rudow",52.4157247,13.4964949,1
+"Germany","Gruenheide",52.4240211,13.8204336,1
+"Germany","Schwagstorf",52.5204157,7.7456343,1
+"Germany","Lingen",52.5403079,7.3292862,1
+"Germany","Insel, Hamburg",52.5617097,11.7526807,1
+"Germany","Strausberg",52.5659128,13.8777546,1
+"Germany","Lower Saxony",52.6367036,9.8450765,1
+"Germany","Biesenthal",52.76524,13.64496,1
+"Germany","Wildehausen",52.891579,8.4258585,1
+"Germany","Fassberg",52.8997766,10.1661575,1
+"Germany","Harpstedt",52.9092311,8.5869754,1
+"Germany","Syke",52.912679,8.8181348,1
+"Germany","Verden",52.924648,9.2280756,1
+"Germany","Ruppin",52.9211097,12.8002556,1
+"Germany","Ganderkesee",53.0349245,8.5426865,1
+"Germany","Bad Bevensen",53.0789507,10.5784051,1
+"Germany","Rotenburg an der Wümme",53.085203,9.386889,1
+"Germany","Rotenburg",53.1035076,9.3970716,1
+"Germany","Groepelingen",53.127559,8.7638964,1
+"Germany","Oslebshausen",53.1378694,8.7344058,1
+"Germany","Lilienthal",53.1491282,8.9133574,1
+"Germany","Sittensen",53.2920464,9.5177888,1
+"Germany","Buchholz",53.3176971,9.8694845,1
+"Germany","Prenzlau",53.3173433,13.8633409,1
+"Germany","Hittfeld",53.4047396,9.9771113,1
+"Germany","Meckelfeld",53.4219352,10.023819,1
+"Germany","Woldegk",53.4615264,13.5844509,1
+"Germany","Neuwiedenthal",53.4730471,9.8765933,1
+"Germany","Escheburg",53.466542,10.3091922,1
+"Germany","Nordenham",53.498644,8.4923932,1
+"Germany","Wittenburg",53.5058658,11.0831993,1
+"Germany","Boldshof",53.5123862,13.7008112,1
+"Germany","Viereck",53.5518556,14.0420872,1
+"Germany","Bahrenfeld",53.5737695,9.8918959,1
+"Germany","Neubrandenburg",53.5678292,13.2779269,1
+"Germany","Jever",53.5755787,7.9002789,1
+"Germany","Bramfeld",53.6132273,10.0872317,1
+"Germany","Farmsen",53.6107299,10.116584,1
+"Germany","Torgelow",53.6326919,14.0054798,1
+"Germany","Ferdinandshof",53.6604961,13.8870314,1
+"Germany","Sternberg",53.7116884,11.8238507,1
+"Germany","Uckermuende",53.7360433,14.0360788,1
+"Germany","Lalendorf",53.7554747,12.3887003,1
+"Germany","Bad Oldesloe",53.8076269,10.3822557,1
+"Germany","Itzehoe",53.9317752,9.5051475,1
+"Germany","Peissen",54.0245069,9.6086559,1
+"Germany","Wolgast",54.0496018,13.7665592,1
+"Germany","Trassenheide",54.0857873,13.8647219,1
+"Germany","Eutin",54.1319978,10.6139151,1
+"Germany","Argenmuende",54.170342,12.0784438,1
+"Germany","Husum",54.4855642,9.0566396,1
+"Germany","Leck",54.7715331,8.9759886,1
+"Netherlands","Brunssum",50.9489,5.972166,1
+"Netherlands","Blerick",51.3690094,6.148377,1
+"Netherlands","Venlo",51.3703748,6.1724031,1
+"Netherlands","Vlijmen",51.6965437,5.2233403,1
+"Netherlands","Den Bosch",51.6978162,5.3036748,1
+"Netherlands","Spijkenisse",51.8561502,4.2972181,1
+"Netherlands","Geldermalsen",51.8820038,5.2910872,1
+"Netherlands","Pannerden",51.8880305,6.0447439,1
+"Netherlands","Vlaardingen",51.9120668,4.3494366,1
+"Netherlands","Maassluis",51.9226067,4.2545656,1
+"Netherlands","Schiedam",51.9169599,4.3988186,1
+"Netherlands","Aalten",51.9266666,6.5806785,1
+"Netherlands","Huissen",51.9357323,5.9342586,1
+"Netherlands","Gouderak",51.9840209,4.6772369,1
+"Netherlands","De Steeg",52.0190867,6.0597786,1
+"Netherlands","Rijswijk",52.0376977,4.3219738,1
+"Netherlands","Ede",52.0401675,5.6648594,1
+"Netherlands","Woerden",52.0798287,4.8627239,1
+"Netherlands","Harskamp",52.1348693,5.7495058,1
+"Netherlands","Voorst",52.1688229,6.143436,1
+"Netherlands","Deventer",52.2660751,6.1552165,1
+"Netherlands","Haarlemmermeer",52.3003784,4.6743594,1
+"Netherlands","Zwolle",52.5167747,6.0830219,1
+"Netherlands","Hoorn",52.6423654,5.0602124,1
+"Netherlands","Meppel",52.6921234,6.1937187,1
+"Netherlands","Enkhuizen",52.7075663,5.2741196,1
+"Netherlands","Emmeloord",52.7120831,5.7550318,1
+"Netherlands","Geesbrug",52.727147,6.6343282,1
+"Netherlands","Oranje",52.9072505,6.4451127,1
+"Netherlands","Oudehaske",52.9568858,5.8714262,1
+"Netherlands","Boelenslaan",53.1615492,6.1460059,1
+"Netherlands","Leeuwarden",53.2012334,5.7999133,1
+"Poland","Rabka",49.6090128,19.9671769,1
+"Poland","Przemyśl",49.7823132,22.7744294,1
+"Poland","Myślenice",49.83347,19.93965,1
+"Poland","Dobczyce",49.881374,20.0889443,1
+"Poland","Wodzisław Śląski",50.003137,18.4719102,1
+"Poland","Borzęcin Dolny",50.1009785,20.7026073,1
+"Poland","Chorzów",50.2974884,18.9545728,1
+"Poland","Bytom",50.3483816,18.9157175,1
+"Poland","Jeżowe",50.3750745,22.1274631,1
+"Poland","Góra Świętej Anny",50.4574601,18.1689573,1
+"Poland","Brzeg",50.8608509,17.4668311,1
+"Poland","Radomsko",51.0668544,19.4449387,1
+"Poland","Grotniki",51.8942731,19.3117486,1
+"Poland","Podkowa Leśna",52.1199928,20.7265083,1
+"Poland","Płock",52.5463446,19.7065364,1
+"Poland","Orla",52.7057788,23.3322603,1
+"Poland","Gorzów Wielkopolski",52.7325285,15.2369305,1
+"Poland","Krynki",53.2639896,23.7725,1
+"Poland","Elbląg",54.1560613,19.4044897,1
+"Poland","Kołobrzeg",54.1759173,15.5832667,1
+"Poland","Puńsk",54.251638,23.1797383,1
+"Spain","Arguineguin",27.7619672,-15.6833181,1
+"Spain","Las Palmas de Gran Canaria",28.1008837,-15.4653897,1
+"Spain","Santa Cruz",28.4636296,-16.2518467,1
+"Spain","Gibraltar",36.140751,-5.353585,1
+"Spain","Roquetas de Mar",36.7637909,-2.6288523,1
+"Spain","Cartagena",37.6156944,-0.9892242,1
+"Spain","Villena",38.6318196,-0.8612206,1
+"Spain","Picassent",39.3637987,-0.4620313,1
+"Spain","Velilla de San Antonio",40.3699557,-3.4864498,1
+"Spain","Brunete",40.4043103,-3.9993244,1
+"Spain","Quijorna",40.429024,-4.0567709,1
+"Spain","San Fernando de Henares, Los Santos de la Humosa",40.4290529,-3.5104537,1
+"Spain","San Sebastian de los Reyes",40.5589672,-3.6261976,1
+"Spain","El Escorial",40.592573,-4.100217,1
+"Spain","Tarragona",41.1188827,1.2444909,1
+"Spain","Vilanova i la Geltru",41.2151504,1.727446,1
+"Spain","Sitges",41.2371851,1.805886,1
+"Spain","Sant Adria de Besos",41.4223872,2.2212071,1
+"Spain","Trinitat Vella",41.4515122,2.1921596,1
+"Spain","Seros",41.4636641,0.4107509,1
+"Spain","Rubi",41.4971174,2.0349243,1
+"Spain","Igualada",41.5849177,1.612949,1
+"Spain","Catalonia",41.5911589,1.5208624,1
+"Spain","Arenys de Munt",41.6093683,2.5408414,1
+"Spain","Navarra",42.6953909,-1.6760691,1
+"Spain","Vitoria",42.8531869,-2.6732421,1
+"Spain","Lugo",43.0097384,-7.5567582,1
+"Spain","Mondragon",43.0648865,-2.4902081,1
+"Spain","Bilbao",43.2630126,-2.9349852,1
+"Sweden","Skurup",55.48045,13.502349,1
+"Sweden","Arlöv",55.6402145,13.0886413,1
+"Sweden","Eslöv",55.8391198,13.3033914,1
+"Sweden","Helsinborg",56.0464674,12.6945121,1
+"Sweden","Färingtofta",56.0456987,13.3783966,1
+"Sweden","Sölvesborg",56.0537433,14.5796878,1
+"Sweden","Klippan",56.1348998,13.1290409,1
+"Sweden","Kattarp",56.140809,12.7814386,1
+"Sweden","Perstorp",56.137972,13.3949862,1
+"Sweden","Kalmar",56.6634447,16.356779,1
+"Sweden","Kånna",56.7794061,13.9032359,1
+"Sweden","Halland",56.7957699,12.893493,1
+"Sweden","Ljungby",56.8338774,13.9410417,1
+"Sweden","Växjö",56.8790044,14.8058522,1
+"Sweden","Varberg",57.107118,12.2520907,1
+"Sweden","Värnamo",57.1831605,14.0478214,1
+"Sweden","Oskarshamn",57.2656993,16.4473984,1
+"Sweden","Frillesås",57.3170319,12.1765003,1
+"Sweden","Klintehamn",57.3865687,18.2036996,1
+"Sweden","Kristdala",57.3997682,16.1997081,1
+"Sweden","Onsala",57.4134952,12.0206589,1
+"Sweden","Mölndal",57.65,12.016667,1
+"Sweden","Floda",57.801541,12.3655998,1
+"Sweden","Kungälv",57.869754,11.9740317,1
+"Sweden","Stenungsund",58.0678388,11.8294346,1
+"Sweden","Finspång",58.7074884,15.773595,1
+"Sweden","Södertalje",59.197762,17.6201942,1
+"Sweden","Tyresö",59.2071441,18.3174748,1
+"Sweden","Huddinge",59.23633,17.9821561,1
+"Sweden","Hornstull",59.315189,18.0430073,1
+"Sweden","Värmdö",59.3571655,18.4967223,1
+"Sweden","Vällingby",59.3670813,17.8691434,1
+"Sweden","Sundbyberg",59.3670471,17.9663093,1
+"Sweden","Solna",59.3688791,18.0084334,1
+"Sweden","Väsby",59.51961,17.92834,1
+"Sweden","Filipstad",59.7139973,14.1698445,1
+"Sweden","Fagersta, Kungalv, Ludvika",59.989144,15.8166418,1
+"Sweden","Bohuslän",60.128161,18.643501,1
+"Sweden","Falun",60.60646,15.6355,1
+"Sweden","Bollnäs",61.3483795,16.3942685,1
+"Sweden","Frösön",63.1958424,14.5293004,1
+"Sweden","Vilhelmina",64.624471,16.655497,1
+"Sweden","Skellefteå",64.750244,20.950917,1
+"Sweden","Piteå",65.316698,21.4800364,1
+"Sweden","Boden",65.8251188,21.6887028,1
