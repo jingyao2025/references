@@ -53,6 +53,10 @@ These counts were checked twice: once in R and once separately in Python (pandas
   - 2 km for border towns: Guben, Ostritz, Konstanz and Freilassing are all at most
     1.4 km across the simplified border. The nearest truly foreign location in the data
     is 21.8 km away.
+- **Scale bar:** a 500 km bar (0, 250, 500 km) in the bottom-right corner of every map,
+  drawn by hand because `ggspatial` is not installed. ETRS89-LAEA is equal-area, so its
+  scale changes a little across the map. I checked this with geodesic distances: anywhere
+  in the frame, the 500 km bar covers 493–501 km on the ground, which is within 1.5%.
 - **Two text fixes:** lat/long are stored as text in the source file, and two rows use a
   decimal comma: Rendsburg (2 events) and Rotenburg an der Wümme (1 event). These were
   converted to numbers, so both places are drawn.

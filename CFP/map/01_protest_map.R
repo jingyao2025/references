@@ -206,6 +206,31 @@ theme_map <- theme_void(base_family = base_family, base_size = 9) +
     plot.margin      = margin(6, 6, 6, 6)
   )
 
+# Scale bar (drawn by hand; ggspatial is not available). LAEA is equal-area, so
+# scale varies slightly with position: a 500 km bar measures 493-501 km on the
+# ground anywhere in these frames (checked with geodesic distances), i.e. <1.5%.
+scale_bar <- function(xlim, ylim, km = 500, text_size = 2.3, height_frac = 0.009) {
+  w  <- km * 1000
+  x1 <- xlim[2] - 0.09 * diff(xlim); x0 <- x1 - w
+  y0 <- ylim[1] + 0.035 * diff(ylim); y1 <- y0 + height_frac * diff(ylim)
+  segs <- data.frame(xmin = x0 + c(0, w / 2), xmax = x0 + c(w / 2, w),
+                     fill = c("grey15", "white"))
+  ticks <- data.frame(x = c(x0, x0 + w / 2, x0 + w),
+                      lab = c("0", format(km / 2), format(km)))
+  list(
+    annotate("rect", xmin = x0 - 0.025 * diff(xlim), xmax = x1 + 0.07 * diff(xlim),
+             ymin = y0 - 0.012 * diff(ylim), ymax = y1 + 0.045 * diff(ylim),
+             fill = alpha("white", 0.85), colour = NA),
+    geom_rect(data = segs, aes(xmin = xmin, xmax = xmax, ymin = y0, ymax = y1),
+              fill = segs$fill, colour = "grey15", linewidth = 0.25, inherit.aes = FALSE),
+    geom_text(data = ticks, aes(x = x, y = y1 + 0.008 * diff(ylim), label = lab),
+              vjust = 0, size = text_size, family = base_family, colour = "grey15",
+              inherit.aes = FALSE),
+    annotate("text", x = x1 + 0.015 * diff(xlim), y = (y0 + y1) / 2, label = "km",
+             hjust = 0, vjust = 0.5, size = text_size, family = base_family, colour = "grey15")
+  )
+}
+
 n_status <- function(x) sum(not_mapped$status == x)
 caption_txt <- paste0(
   "Note: Labels give all events coded for each country, 2008–2021 (unit = protest event). ",
@@ -238,6 +263,7 @@ p1 <- ggplot() +
   scale_size_area(name = "Protest events\nper location", max_size = 13,
                   breaks = size_breaks, labels = fmt) +
   guides(size = guide_legend(override.aes = list(fill = alpha(col_dot, 0.45)))) +
+  scale_bar(xlim, ylim) +
   coord_sf(crs = crs_eu, xlim = xlim, ylim = ylim, expand = FALSE, datum = NA) +
   labs(title = "Far-right protest events in six European countries, 2008–2021",
        subtitle = paste0("Total events by country (labels) and location of events (circles); N = ",
@@ -278,6 +304,7 @@ p2 <- ggplot() +
              fill = "white", colour = "grey10", label.size = 0.25,
              label.padding = unit(0.15, "lines"), label.r = unit(0.05, "lines")) +
   scale_fill_manual(name = "Protest events,\n2008–2021", values = seq_cols, drop = FALSE) +
+  scale_bar(xlim, ylim) +
   coord_sf(crs = crs_eu, xlim = xlim, ylim = ylim, expand = FALSE, datum = NA) +
   labs(title = "Far-right protest events in six European countries, 2008–2021",
        subtitle = paste0("Total number of events by country; N = ", fmt(n_total), " events"),
@@ -321,6 +348,7 @@ p_map_ls <- ggplot() +
   scale_size_area(name = "Events per\nlocation", max_size = 8.5,
                   breaks = size_breaks, labels = fmt) +
   guides(size = guide_legend(override.aes = list(fill = alpha(col_dot, 0.45)))) +
+  scale_bar(xlim_ls, ylim_ls, text_size = 2.0) +
   coord_sf(crs = crs_eu, xlim = xlim_ls, ylim = ylim_ls, expand = FALSE, datum = NA) +
   labs(title = "A. Location of events") +
   theme_map +
@@ -366,7 +394,7 @@ caption_ls <- paste0(
   n_status("Nationwide (no single location)"), "; abroad or at sea: ",
   n_status("Outside the coding country"), ").\n",
   "Source: CFP – Comparative Far-Right Protest database, V1-2026 (Castelli Gattinara et al. 2026). ",
-  "Boundaries: Natural Earth 1:50m; projection ETRS89-LAEA."
+  "Boundaries: Natural Earth 1:50m.\nProjection: ETRS89-LAEA; the scale bar is accurate to within 1.5% across panel A."
 )
 
 p_ls <- (p_map_ls | p_bar) +
