@@ -1,0 +1,589 @@
+"country","year","issue","mentions","share"
+"All six countries",2008,"Immigration",25,0.1096
+"All six countries",2008,"Political opponents",59,0.2588
+"All six countries",2008,"National identity",53,0.2325
+"All six countries",2008,"Islam & internal minorities",20,0.0877
+"All six countries",2008,"Anniversaries",30,0.1316
+"All six countries",2008,"All other issues",41,0.1798
+"All six countries",2009,"Immigration",14,0.0824
+"All six countries",2009,"Political opponents",38,0.2235
+"All six countries",2009,"National identity",29,0.1706
+"All six countries",2009,"Islam & internal minorities",20,0.1176
+"All six countries",2009,"Anniversaries",23,0.1353
+"All six countries",2009,"All other issues",46,0.2706
+"All six countries",2010,"Immigration",30,0.1775
+"All six countries",2010,"Political opponents",22,0.1302
+"All six countries",2010,"National identity",33,0.1953
+"All six countries",2010,"Islam & internal minorities",26,0.1538
+"All six countries",2010,"Anniversaries",30,0.1775
+"All six countries",2010,"All other issues",28,0.1657
+"All six countries",2011,"Immigration",28,0.14
+"All six countries",2011,"Political opponents",44,0.22
+"All six countries",2011,"National identity",51,0.255
+"All six countries",2011,"Islam & internal minorities",25,0.125
+"All six countries",2011,"Anniversaries",26,0.13
+"All six countries",2011,"All other issues",26,0.13
+"All six countries",2012,"Immigration",43,0.1911
+"All six countries",2012,"Political opponents",43,0.1911
+"All six countries",2012,"National identity",38,0.1689
+"All six countries",2012,"Islam & internal minorities",24,0.1067
+"All six countries",2012,"Anniversaries",23,0.1022
+"All six countries",2012,"All other issues",54,0.24
+"All six countries",2013,"Immigration",67,0.2326
+"All six countries",2013,"Political opponents",33,0.1146
+"All six countries",2013,"National identity",59,0.2049
+"All six countries",2013,"Islam & internal minorities",32,0.1111
+"All six countries",2013,"Anniversaries",29,0.1007
+"All six countries",2013,"All other issues",68,0.2361
+"All six countries",2014,"Immigration",71,0.2509
+"All six countries",2014,"Political opponents",33,0.1166
+"All six countries",2014,"National identity",39,0.1378
+"All six countries",2014,"Islam & internal minorities",48,0.1696
+"All six countries",2014,"Anniversaries",25,0.0883
+"All six countries",2014,"All other issues",67,0.2367
+"All six countries",2015,"Immigration",319,0.3997
+"All six countries",2015,"Political opponents",59,0.0739
+"All six countries",2015,"National identity",52,0.0652
+"All six countries",2015,"Islam & internal minorities",149,0.1867
+"All six countries",2015,"Anniversaries",20,0.0251
+"All six countries",2015,"All other issues",199,0.2494
+"All six countries",2016,"Immigration",156,0.3083
+"All six countries",2016,"Political opponents",75,0.1482
+"All six countries",2016,"National identity",65,0.1285
+"All six countries",2016,"Islam & internal minorities",85,0.168
+"All six countries",2016,"Anniversaries",27,0.0534
+"All six countries",2016,"All other issues",98,0.1937
+"All six countries",2017,"Immigration",52,0.1425
+"All six countries",2017,"Political opponents",75,0.2055
+"All six countries",2017,"National identity",68,0.1863
+"All six countries",2017,"Islam & internal minorities",60,0.1644
+"All six countries",2017,"Anniversaries",44,0.1205
+"All six countries",2017,"All other issues",66,0.1808
+"All six countries",2018,"Immigration",101,0.2078
+"All six countries",2018,"Political opponents",102,0.2099
+"All six countries",2018,"National identity",77,0.1584
+"All six countries",2018,"Islam & internal minorities",75,0.1543
+"All six countries",2018,"Anniversaries",43,0.0885
+"All six countries",2018,"All other issues",88,0.1811
+"All six countries",2019,"Immigration",38,0.1645
+"All six countries",2019,"Political opponents",44,0.1905
+"All six countries",2019,"National identity",36,0.1558
+"All six countries",2019,"Islam & internal minorities",31,0.1342
+"All six countries",2019,"Anniversaries",20,0.0866
+"All six countries",2019,"All other issues",62,0.2684
+"All six countries",2020,"Immigration",17,0.0708
+"All six countries",2020,"Political opponents",44,0.1833
+"All six countries",2020,"National identity",18,0.075
+"All six countries",2020,"Islam & internal minorities",18,0.075
+"All six countries",2020,"Anniversaries",23,0.0958
+"All six countries",2020,"All other issues",120,0.5
+"All six countries",2021,"Immigration",13,0.0575
+"All six countries",2021,"Political opponents",30,0.1327
+"All six countries",2021,"National identity",21,0.0929
+"All six countries",2021,"Islam & internal minorities",14,0.0619
+"All six countries",2021,"Anniversaries",12,0.0531
+"All six countries",2021,"All other issues",136,0.6018
+"Austria",2008,"Immigration",1,0.125
+"Austria",2008,"Political opponents",1,0.125
+"Austria",2008,"National identity",0,0
+"Austria",2008,"Islam & internal minorities",1,0.125
+"Austria",2008,"Anniversaries",3,0.375
+"Austria",2008,"All other issues",2,0.25
+"Austria",2009,"Immigration",1,0.1111
+"Austria",2009,"Political opponents",1,0.1111
+"Austria",2009,"National identity",0,0
+"Austria",2009,"Islam & internal minorities",3,0.3333
+"Austria",2009,"Anniversaries",2,0.2222
+"Austria",2009,"All other issues",2,0.2222
+"Austria",2010,"Immigration",2,0.3333
+"Austria",2010,"Political opponents",0,0
+"Austria",2010,"National identity",1,0.1667
+"Austria",2010,"Islam & internal minorities",2,0.3333
+"Austria",2010,"Anniversaries",1,0.1667
+"Austria",2010,"All other issues",0,0
+"Austria",2011,"Immigration",1,0.1667
+"Austria",2011,"Political opponents",1,0.1667
+"Austria",2011,"National identity",1,0.1667
+"Austria",2011,"Islam & internal minorities",1,0.1667
+"Austria",2011,"Anniversaries",2,0.3333
+"Austria",2011,"All other issues",0,0
+"Austria",2012,"Immigration",1,0.2
+"Austria",2012,"Political opponents",2,0.4
+"Austria",2012,"National identity",0,0
+"Austria",2012,"Islam & internal minorities",0,0
+"Austria",2012,"Anniversaries",1,0.2
+"Austria",2012,"All other issues",1,0.2
+"Austria",2013,"Immigration",2,0.3333
+"Austria",2013,"Political opponents",2,0.3333
+"Austria",2013,"National identity",1,0.1667
+"Austria",2013,"Islam & internal minorities",0,0
+"Austria",2013,"Anniversaries",0,0
+"Austria",2013,"All other issues",1,0.1667
+"Austria",2014,"Immigration",3,0.25
+"Austria",2014,"Political opponents",1,0.0833
+"Austria",2014,"National identity",0,0
+"Austria",2014,"Islam & internal minorities",3,0.25
+"Austria",2014,"Anniversaries",3,0.25
+"Austria",2014,"All other issues",2,0.1667
+"Austria",2015,"Immigration",14,0.4828
+"Austria",2015,"Political opponents",0,0
+"Austria",2015,"National identity",1,0.0345
+"Austria",2015,"Islam & internal minorities",13,0.4483
+"Austria",2015,"Anniversaries",1,0.0345
+"Austria",2015,"All other issues",0,0
+"Austria",2016,"Immigration",19,0.4222
+"Austria",2016,"Political opponents",4,0.0889
+"Austria",2016,"National identity",3,0.0667
+"Austria",2016,"Islam & internal minorities",14,0.3111
+"Austria",2016,"Anniversaries",1,0.0222
+"Austria",2016,"All other issues",4,0.0889
+"Austria",2017,"Immigration",1,0.1667
+"Austria",2017,"Political opponents",0,0
+"Austria",2017,"National identity",0,0
+"Austria",2017,"Islam & internal minorities",3,0.5
+"Austria",2017,"Anniversaries",2,0.3333
+"Austria",2017,"All other issues",0,0
+"Austria",2018,"Immigration",1,0.3333
+"Austria",2018,"Political opponents",0,0
+"Austria",2018,"National identity",1,0.3333
+"Austria",2018,"Islam & internal minorities",1,0.3333
+"Austria",2018,"Anniversaries",0,0
+"Austria",2018,"All other issues",0,0
+"Austria",2019,"Immigration",1,0.2
+"Austria",2019,"Political opponents",2,0.4
+"Austria",2019,"National identity",0,0
+"Austria",2019,"Islam & internal minorities",1,0.2
+"Austria",2019,"Anniversaries",1,0.2
+"Austria",2019,"All other issues",0,0
+"Austria",2020,"Immigration",0,0
+"Austria",2020,"Political opponents",1,0.1429
+"Austria",2020,"National identity",0,0
+"Austria",2020,"Islam & internal minorities",1,0.1429
+"Austria",2020,"Anniversaries",0,0
+"Austria",2020,"All other issues",5,0.7143
+"Austria",2021,"Immigration",2,0.069
+"Austria",2021,"Political opponents",0,0
+"Austria",2021,"National identity",1,0.0345
+"Austria",2021,"Islam & internal minorities",2,0.069
+"Austria",2021,"Anniversaries",0,0
+"Austria",2021,"All other issues",24,0.8276
+"Germany",2008,"Immigration",17,0.1298
+"Germany",2008,"Political opponents",35,0.2672
+"Germany",2008,"National identity",33,0.2519
+"Germany",2008,"Islam & internal minorities",11,0.084
+"Germany",2008,"Anniversaries",18,0.1374
+"Germany",2008,"All other issues",17,0.1298
+"Germany",2009,"Immigration",5,0.0568
+"Germany",2009,"Political opponents",27,0.3068
+"Germany",2009,"National identity",18,0.2045
+"Germany",2009,"Islam & internal minorities",9,0.1023
+"Germany",2009,"Anniversaries",13,0.1477
+"Germany",2009,"All other issues",16,0.1818
+"Germany",2010,"Immigration",8,0.1379
+"Germany",2010,"Political opponents",7,0.1207
+"Germany",2010,"National identity",13,0.2241
+"Germany",2010,"Islam & internal minorities",7,0.1207
+"Germany",2010,"Anniversaries",12,0.2069
+"Germany",2010,"All other issues",11,0.1897
+"Germany",2011,"Immigration",10,0.098
+"Germany",2011,"Political opponents",31,0.3039
+"Germany",2011,"National identity",27,0.2647
+"Germany",2011,"Islam & internal minorities",11,0.1078
+"Germany",2011,"Anniversaries",13,0.1275
+"Germany",2011,"All other issues",10,0.098
+"Germany",2012,"Immigration",29,0.2377
+"Germany",2012,"Political opponents",21,0.1721
+"Germany",2012,"National identity",20,0.1639
+"Germany",2012,"Islam & internal minorities",17,0.1393
+"Germany",2012,"Anniversaries",7,0.0574
+"Germany",2012,"All other issues",28,0.2295
+"Germany",2013,"Immigration",57,0.2923
+"Germany",2013,"Political opponents",13,0.0667
+"Germany",2013,"National identity",37,0.1897
+"Germany",2013,"Islam & internal minorities",24,0.1231
+"Germany",2013,"Anniversaries",13,0.0667
+"Germany",2013,"All other issues",51,0.2615
+"Germany",2014,"Immigration",58,0.324
+"Germany",2014,"Political opponents",15,0.0838
+"Germany",2014,"National identity",16,0.0894
+"Germany",2014,"Islam & internal minorities",34,0.1899
+"Germany",2014,"Anniversaries",11,0.0615
+"Germany",2014,"All other issues",45,0.2514
+"Germany",2015,"Immigration",233,0.3929
+"Germany",2015,"Political opponents",43,0.0725
+"Germany",2015,"National identity",29,0.0489
+"Germany",2015,"Islam & internal minorities",100,0.1686
+"Germany",2015,"Anniversaries",13,0.0219
+"Germany",2015,"All other issues",175,0.2951
+"Germany",2016,"Immigration",99,0.3214
+"Germany",2016,"Political opponents",51,0.1656
+"Germany",2016,"National identity",36,0.1169
+"Germany",2016,"Islam & internal minorities",48,0.1558
+"Germany",2016,"Anniversaries",14,0.0455
+"Germany",2016,"All other issues",60,0.1948
+"Germany",2017,"Immigration",27,0.1765
+"Germany",2017,"Political opponents",39,0.2549
+"Germany",2017,"National identity",17,0.1111
+"Germany",2017,"Islam & internal minorities",26,0.1699
+"Germany",2017,"Anniversaries",20,0.1307
+"Germany",2017,"All other issues",24,0.1569
+"Germany",2018,"Immigration",80,0.292
+"Germany",2018,"Political opponents",63,0.2299
+"Germany",2018,"National identity",18,0.0657
+"Germany",2018,"Islam & internal minorities",50,0.1825
+"Germany",2018,"Anniversaries",21,0.0766
+"Germany",2018,"All other issues",42,0.1533
+"Germany",2019,"Immigration",30,0.229
+"Germany",2019,"Political opponents",18,0.1374
+"Germany",2019,"National identity",18,0.1374
+"Germany",2019,"Islam & internal minorities",24,0.1832
+"Germany",2019,"Anniversaries",10,0.0763
+"Germany",2019,"All other issues",31,0.2366
+"Germany",2020,"Immigration",7,0.0583
+"Germany",2020,"Political opponents",11,0.0917
+"Germany",2020,"National identity",7,0.0583
+"Germany",2020,"Islam & internal minorities",9,0.075
+"Germany",2020,"Anniversaries",8,0.0667
+"Germany",2020,"All other issues",78,0.65
+"Germany",2021,"Immigration",7,0.0631
+"Germany",2021,"Political opponents",6,0.0541
+"Germany",2021,"National identity",7,0.0631
+"Germany",2021,"Islam & internal minorities",6,0.0541
+"Germany",2021,"Anniversaries",2,0.018
+"Germany",2021,"All other issues",83,0.7477
+"Netherlands",2008,"Immigration",1,0.0833
+"Netherlands",2008,"Political opponents",2,0.1667
+"Netherlands",2008,"National identity",3,0.25
+"Netherlands",2008,"Islam & internal minorities",3,0.25
+"Netherlands",2008,"Anniversaries",0,0
+"Netherlands",2008,"All other issues",3,0.25
+"Netherlands",2009,"Immigration",0,0
+"Netherlands",2009,"Political opponents",2,0.2857
+"Netherlands",2009,"National identity",2,0.2857
+"Netherlands",2009,"Islam & internal minorities",2,0.2857
+"Netherlands",2009,"Anniversaries",0,0
+"Netherlands",2009,"All other issues",1,0.1429
+"Netherlands",2010,"Immigration",2,0.1176
+"Netherlands",2010,"Political opponents",3,0.1765
+"Netherlands",2010,"National identity",3,0.1765
+"Netherlands",2010,"Islam & internal minorities",8,0.4706
+"Netherlands",2010,"Anniversaries",1,0.0588
+"Netherlands",2010,"All other issues",0,0
+"Netherlands",2011,"Immigration",0,0
+"Netherlands",2011,"Political opponents",1,1
+"Netherlands",2011,"National identity",0,0
+"Netherlands",2011,"Islam & internal minorities",0,0
+"Netherlands",2011,"Anniversaries",0,0
+"Netherlands",2011,"All other issues",0,0
+"Netherlands",2012,"Immigration",3,0.3
+"Netherlands",2012,"Political opponents",1,0.1
+"Netherlands",2012,"National identity",0,0
+"Netherlands",2012,"Islam & internal minorities",0,0
+"Netherlands",2012,"Anniversaries",1,0.1
+"Netherlands",2012,"All other issues",5,0.5
+"Netherlands",2013,"Immigration",2,0.1333
+"Netherlands",2013,"Political opponents",2,0.1333
+"Netherlands",2013,"National identity",0,0
+"Netherlands",2013,"Islam & internal minorities",6,0.4
+"Netherlands",2013,"Anniversaries",1,0.0667
+"Netherlands",2013,"All other issues",4,0.2667
+"Netherlands",2014,"Immigration",4,0.4
+"Netherlands",2014,"Political opponents",1,0.1
+"Netherlands",2014,"National identity",1,0.1
+"Netherlands",2014,"Islam & internal minorities",3,0.3
+"Netherlands",2014,"Anniversaries",0,0
+"Netherlands",2014,"All other issues",1,0.1
+"Netherlands",2015,"Immigration",20,0.4082
+"Netherlands",2015,"Political opponents",9,0.1837
+"Netherlands",2015,"National identity",4,0.0816
+"Netherlands",2015,"Islam & internal minorities",14,0.2857
+"Netherlands",2015,"Anniversaries",0,0
+"Netherlands",2015,"All other issues",2,0.0408
+"Netherlands",2016,"Immigration",17,0.4474
+"Netherlands",2016,"Political opponents",2,0.0526
+"Netherlands",2016,"National identity",4,0.1053
+"Netherlands",2016,"Islam & internal minorities",10,0.2632
+"Netherlands",2016,"Anniversaries",0,0
+"Netherlands",2016,"All other issues",5,0.1316
+"Netherlands",2017,"Immigration",2,0.069
+"Netherlands",2017,"Political opponents",4,0.1379
+"Netherlands",2017,"National identity",8,0.2759
+"Netherlands",2017,"Islam & internal minorities",10,0.3448
+"Netherlands",2017,"Anniversaries",0,0
+"Netherlands",2017,"All other issues",5,0.1724
+"Netherlands",2018,"Immigration",4,0.1026
+"Netherlands",2018,"Political opponents",7,0.1795
+"Netherlands",2018,"National identity",10,0.2564
+"Netherlands",2018,"Islam & internal minorities",11,0.2821
+"Netherlands",2018,"Anniversaries",2,0.0513
+"Netherlands",2018,"All other issues",5,0.1282
+"Netherlands",2019,"Immigration",2,0.08
+"Netherlands",2019,"Political opponents",5,0.2
+"Netherlands",2019,"National identity",7,0.28
+"Netherlands",2019,"Islam & internal minorities",3,0.12
+"Netherlands",2019,"Anniversaries",0,0
+"Netherlands",2019,"All other issues",8,0.32
+"Netherlands",2020,"Immigration",0,0
+"Netherlands",2020,"Political opponents",1,0.1
+"Netherlands",2020,"National identity",3,0.3
+"Netherlands",2020,"Islam & internal minorities",0,0
+"Netherlands",2020,"Anniversaries",1,0.1
+"Netherlands",2020,"All other issues",5,0.5
+"Netherlands",2021,"Immigration",1,0.0556
+"Netherlands",2021,"Political opponents",8,0.4444
+"Netherlands",2021,"National identity",3,0.1667
+"Netherlands",2021,"Islam & internal minorities",0,0
+"Netherlands",2021,"Anniversaries",0,0
+"Netherlands",2021,"All other issues",6,0.3333
+"Poland",2008,"Immigration",0,0
+"Poland",2008,"Political opponents",11,0.4231
+"Poland",2008,"National identity",2,0.0769
+"Poland",2008,"Islam & internal minorities",5,0.1923
+"Poland",2008,"Anniversaries",2,0.0769
+"Poland",2008,"All other issues",6,0.2308
+"Poland",2009,"Immigration",0,0
+"Poland",2009,"Political opponents",0,0
+"Poland",2009,"National identity",1,0.3333
+"Poland",2009,"Islam & internal minorities",1,0.3333
+"Poland",2009,"Anniversaries",1,0.3333
+"Poland",2009,"All other issues",0,0
+"Poland",2010,"Immigration",0,0
+"Poland",2010,"Political opponents",2,0.1538
+"Poland",2010,"National identity",2,0.1538
+"Poland",2010,"Islam & internal minorities",0,0
+"Poland",2010,"Anniversaries",6,0.4615
+"Poland",2010,"All other issues",3,0.2308
+"Poland",2011,"Immigration",1,0.0357
+"Poland",2011,"Political opponents",6,0.2143
+"Poland",2011,"National identity",4,0.1429
+"Poland",2011,"Islam & internal minorities",5,0.1786
+"Poland",2011,"Anniversaries",8,0.2857
+"Poland",2011,"All other issues",4,0.1429
+"Poland",2012,"Immigration",0,0
+"Poland",2012,"Political opponents",12,0.3529
+"Poland",2012,"National identity",3,0.0882
+"Poland",2012,"Islam & internal minorities",1,0.0294
+"Poland",2012,"Anniversaries",9,0.2647
+"Poland",2012,"All other issues",9,0.2647
+"Poland",2013,"Immigration",0,0
+"Poland",2013,"Political opponents",6,0.24
+"Poland",2013,"National identity",3,0.12
+"Poland",2013,"Islam & internal minorities",1,0.04
+"Poland",2013,"Anniversaries",9,0.36
+"Poland",2013,"All other issues",6,0.24
+"Poland",2014,"Immigration",0,0
+"Poland",2014,"Political opponents",6,0.4286
+"Poland",2014,"National identity",0,0
+"Poland",2014,"Islam & internal minorities",0,0
+"Poland",2014,"Anniversaries",6,0.4286
+"Poland",2014,"All other issues",2,0.1429
+"Poland",2015,"Immigration",13,0.2955
+"Poland",2015,"Political opponents",3,0.0682
+"Poland",2015,"National identity",2,0.0455
+"Poland",2015,"Islam & internal minorities",13,0.2955
+"Poland",2015,"Anniversaries",5,0.1136
+"Poland",2015,"All other issues",8,0.1818
+"Poland",2016,"Immigration",9,0.1552
+"Poland",2016,"Political opponents",9,0.1552
+"Poland",2016,"National identity",4,0.069
+"Poland",2016,"Islam & internal minorities",10,0.1724
+"Poland",2016,"Anniversaries",9,0.1552
+"Poland",2016,"All other issues",17,0.2931
+"Poland",2017,"Immigration",5,0.0746
+"Poland",2017,"Political opponents",14,0.209
+"Poland",2017,"National identity",9,0.1343
+"Poland",2017,"Islam & internal minorities",5,0.0746
+"Poland",2017,"Anniversaries",19,0.2836
+"Poland",2017,"All other issues",15,0.2239
+"Poland",2018,"Immigration",1,0.0213
+"Poland",2018,"Political opponents",10,0.2128
+"Poland",2018,"National identity",8,0.1702
+"Poland",2018,"Islam & internal minorities",2,0.0426
+"Poland",2018,"Anniversaries",14,0.2979
+"Poland",2018,"All other issues",12,0.2553
+"Poland",2019,"Immigration",0,0
+"Poland",2019,"Political opponents",11,0.3667
+"Poland",2019,"National identity",3,0.1
+"Poland",2019,"Islam & internal minorities",2,0.0667
+"Poland",2019,"Anniversaries",6,0.2
+"Poland",2019,"All other issues",8,0.2667
+"Poland",2020,"Immigration",0,0
+"Poland",2020,"Political opponents",14,0.3684
+"Poland",2020,"National identity",1,0.0263
+"Poland",2020,"Islam & internal minorities",1,0.0263
+"Poland",2020,"Anniversaries",4,0.1053
+"Poland",2020,"All other issues",18,0.4737
+"Poland",2021,"Immigration",1,0.0357
+"Poland",2021,"Political opponents",6,0.2143
+"Poland",2021,"National identity",1,0.0357
+"Poland",2021,"Islam & internal minorities",2,0.0714
+"Poland",2021,"Anniversaries",4,0.1429
+"Poland",2021,"All other issues",14,0.5
+"Spain",2008,"Immigration",4,0.1333
+"Spain",2008,"Political opponents",4,0.1333
+"Spain",2008,"National identity",8,0.2667
+"Spain",2008,"Islam & internal minorities",0,0
+"Spain",2008,"Anniversaries",3,0.1
+"Spain",2008,"All other issues",11,0.3667
+"Spain",2009,"Immigration",6,0.12
+"Spain",2009,"Political opponents",8,0.16
+"Spain",2009,"National identity",4,0.08
+"Spain",2009,"Islam & internal minorities",3,0.06
+"Spain",2009,"Anniversaries",3,0.06
+"Spain",2009,"All other issues",26,0.52
+"Spain",2010,"Immigration",6,0.1333
+"Spain",2010,"Political opponents",8,0.1778
+"Spain",2010,"National identity",5,0.1111
+"Spain",2010,"Islam & internal minorities",5,0.1111
+"Spain",2010,"Anniversaries",10,0.2222
+"Spain",2010,"All other issues",11,0.2444
+"Spain",2011,"Immigration",8,0.2
+"Spain",2011,"Political opponents",4,0.1
+"Spain",2011,"National identity",10,0.25
+"Spain",2011,"Islam & internal minorities",6,0.15
+"Spain",2011,"Anniversaries",3,0.075
+"Spain",2011,"All other issues",9,0.225
+"Spain",2012,"Immigration",3,0.1111
+"Spain",2012,"Political opponents",5,0.1852
+"Spain",2012,"National identity",8,0.2963
+"Spain",2012,"Islam & internal minorities",2,0.0741
+"Spain",2012,"Anniversaries",3,0.1111
+"Spain",2012,"All other issues",6,0.2222
+"Spain",2013,"Immigration",0,0
+"Spain",2013,"Political opponents",3,0.1667
+"Spain",2013,"National identity",6,0.3333
+"Spain",2013,"Islam & internal minorities",0,0
+"Spain",2013,"Anniversaries",5,0.2778
+"Spain",2013,"All other issues",4,0.2222
+"Spain",2014,"Immigration",1,0.0333
+"Spain",2014,"Political opponents",4,0.1333
+"Spain",2014,"National identity",8,0.2667
+"Spain",2014,"Islam & internal minorities",1,0.0333
+"Spain",2014,"Anniversaries",4,0.1333
+"Spain",2014,"All other issues",12,0.4
+"Spain",2015,"Immigration",3,0.1
+"Spain",2015,"Political opponents",1,0.0333
+"Spain",2015,"National identity",10,0.3333
+"Spain",2015,"Islam & internal minorities",3,0.1
+"Spain",2015,"Anniversaries",1,0.0333
+"Spain",2015,"All other issues",12,0.4
+"Spain",2016,"Immigration",3,0.1667
+"Spain",2016,"Political opponents",1,0.0556
+"Spain",2016,"National identity",5,0.2778
+"Spain",2016,"Islam & internal minorities",1,0.0556
+"Spain",2016,"Anniversaries",2,0.1111
+"Spain",2016,"All other issues",6,0.3333
+"Spain",2017,"Immigration",5,0.1111
+"Spain",2017,"Political opponents",7,0.1556
+"Spain",2017,"National identity",12,0.2667
+"Spain",2017,"Islam & internal minorities",7,0.1556
+"Spain",2017,"Anniversaries",1,0.0222
+"Spain",2017,"All other issues",13,0.2889
+"Spain",2018,"Immigration",9,0.1233
+"Spain",2018,"Political opponents",12,0.1644
+"Spain",2018,"National identity",17,0.2329
+"Spain",2018,"Islam & internal minorities",5,0.0685
+"Spain",2018,"Anniversaries",5,0.0685
+"Spain",2018,"All other issues",25,0.3425
+"Spain",2019,"Immigration",5,0.1667
+"Spain",2019,"Political opponents",5,0.1667
+"Spain",2019,"National identity",5,0.1667
+"Spain",2019,"Islam & internal minorities",0,0
+"Spain",2019,"Anniversaries",1,0.0333
+"Spain",2019,"All other issues",14,0.4667
+"Spain",2020,"Immigration",7,0.1429
+"Spain",2020,"Political opponents",15,0.3061
+"Spain",2020,"National identity",5,0.102
+"Spain",2020,"Islam & internal minorities",1,0.0204
+"Spain",2020,"Anniversaries",7,0.1429
+"Spain",2020,"All other issues",14,0.2857
+"Spain",2021,"Immigration",2,0.0588
+"Spain",2021,"Political opponents",9,0.2647
+"Spain",2021,"National identity",9,0.2647
+"Spain",2021,"Islam & internal minorities",2,0.0588
+"Spain",2021,"Anniversaries",4,0.1176
+"Spain",2021,"All other issues",8,0.2353
+"Sweden",2008,"Immigration",2,0.0952
+"Sweden",2008,"Political opponents",6,0.2857
+"Sweden",2008,"National identity",7,0.3333
+"Sweden",2008,"Islam & internal minorities",0,0
+"Sweden",2008,"Anniversaries",4,0.1905
+"Sweden",2008,"All other issues",2,0.0952
+"Sweden",2009,"Immigration",2,0.1538
+"Sweden",2009,"Political opponents",0,0
+"Sweden",2009,"National identity",4,0.3077
+"Sweden",2009,"Islam & internal minorities",2,0.1538
+"Sweden",2009,"Anniversaries",4,0.3077
+"Sweden",2009,"All other issues",1,0.0769
+"Sweden",2010,"Immigration",12,0.4
+"Sweden",2010,"Political opponents",2,0.0667
+"Sweden",2010,"National identity",9,0.3
+"Sweden",2010,"Islam & internal minorities",4,0.1333
+"Sweden",2010,"Anniversaries",0,0
+"Sweden",2010,"All other issues",3,0.1
+"Sweden",2011,"Immigration",8,0.3478
+"Sweden",2011,"Political opponents",1,0.0435
+"Sweden",2011,"National identity",9,0.3913
+"Sweden",2011,"Islam & internal minorities",2,0.087
+"Sweden",2011,"Anniversaries",0,0
+"Sweden",2011,"All other issues",3,0.1304
+"Sweden",2012,"Immigration",7,0.2593
+"Sweden",2012,"Political opponents",2,0.0741
+"Sweden",2012,"National identity",7,0.2593
+"Sweden",2012,"Islam & internal minorities",4,0.1481
+"Sweden",2012,"Anniversaries",2,0.0741
+"Sweden",2012,"All other issues",5,0.1852
+"Sweden",2013,"Immigration",6,0.2069
+"Sweden",2013,"Political opponents",7,0.2414
+"Sweden",2013,"National identity",12,0.4138
+"Sweden",2013,"Islam & internal minorities",1,0.0345
+"Sweden",2013,"Anniversaries",1,0.0345
+"Sweden",2013,"All other issues",2,0.069
+"Sweden",2014,"Immigration",5,0.1316
+"Sweden",2014,"Political opponents",6,0.1579
+"Sweden",2014,"National identity",14,0.3684
+"Sweden",2014,"Islam & internal minorities",7,0.1842
+"Sweden",2014,"Anniversaries",1,0.0263
+"Sweden",2014,"All other issues",5,0.1316
+"Sweden",2015,"Immigration",36,0.6792
+"Sweden",2015,"Political opponents",3,0.0566
+"Sweden",2015,"National identity",6,0.1132
+"Sweden",2015,"Islam & internal minorities",6,0.1132
+"Sweden",2015,"Anniversaries",0,0
+"Sweden",2015,"All other issues",2,0.0377
+"Sweden",2016,"Immigration",9,0.2308
+"Sweden",2016,"Political opponents",8,0.2051
+"Sweden",2016,"National identity",13,0.3333
+"Sweden",2016,"Islam & internal minorities",2,0.0513
+"Sweden",2016,"Anniversaries",1,0.0256
+"Sweden",2016,"All other issues",6,0.1538
+"Sweden",2017,"Immigration",12,0.1846
+"Sweden",2017,"Political opponents",11,0.1692
+"Sweden",2017,"National identity",22,0.3385
+"Sweden",2017,"Islam & internal minorities",9,0.1385
+"Sweden",2017,"Anniversaries",2,0.0308
+"Sweden",2017,"All other issues",9,0.1385
+"Sweden",2018,"Immigration",6,0.12
+"Sweden",2018,"Political opponents",10,0.2
+"Sweden",2018,"National identity",23,0.46
+"Sweden",2018,"Islam & internal minorities",6,0.12
+"Sweden",2018,"Anniversaries",1,0.02
+"Sweden",2018,"All other issues",4,0.08
+"Sweden",2019,"Immigration",0,0
+"Sweden",2019,"Political opponents",3,0.3
+"Sweden",2019,"National identity",3,0.3
+"Sweden",2019,"Islam & internal minorities",1,0.1
+"Sweden",2019,"Anniversaries",2,0.2
+"Sweden",2019,"All other issues",1,0.1
+"Sweden",2020,"Immigration",3,0.1875
+"Sweden",2020,"Political opponents",2,0.125
+"Sweden",2020,"National identity",2,0.125
+"Sweden",2020,"Islam & internal minorities",6,0.375
+"Sweden",2020,"Anniversaries",3,0.1875
+"Sweden",2020,"All other issues",0,0
+"Sweden",2021,"Immigration",0,0
+"Sweden",2021,"Political opponents",1,0.1667
+"Sweden",2021,"National identity",0,0
+"Sweden",2021,"Islam & internal minorities",2,0.3333
+"Sweden",2021,"Anniversaries",2,0.3333
+"Sweden",2021,"All other issues",1,0.1667
