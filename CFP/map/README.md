@@ -7,6 +7,9 @@ Reproduce from the repository root with `Rscript CFP/map/01_protest_map.R`
 
 | File | Use |
 |---|---|
+| `fig1r_restyled_circles[_clean].{pdf,png,tiff}` | **Restyled landscape figure** (built by `03_restyled_map.R`), modelled on an editorial reference map. Changes from the original: two land tones (the six countries vs. all others), white sea and borders, one colour per country shared by the circles, labels and bars, no colour legend, italic sea labels, a one-line scale bar, and the Inter typeface. Circles still show events per location. |
+| `fig1r_restyled_cells[_clean].{pdf,png}` | Alternative in the same style. Events are grouped into 50 × 50 km grid cells (ETRS89-LAEA), and each cell is coloured by its most frequent protest form. Ties go to the more contentious form. Cells do **not** show how many events they hold. |
+| `table_cells_50km.csv` | The numbers behind the cell map: one row per cell, with its event count, dominant form, and whether it was a tie. |
 | `fig1_landscape_map_and_totals.{pdf,png,tiff}` | **Landscape figure, 6.5 × 5.0 in (about half a letter page).** Panel A is the location map and panel B ranks the country totals with their shares. It has its own title and note. |
 | `fig1_landscape_map_and_totals_clean.{pdf,png,tiff}` | Same landscape figure with no title or note, 6.5 × 4.5 in. |
 | `fig1_protest_locations_map.{pdf,png,tiff}` | Main figure: country totals in the labels, event locations as circles. It has its own title and note. |
