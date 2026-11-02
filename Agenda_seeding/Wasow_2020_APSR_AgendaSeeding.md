@@ -24,6 +24,24 @@ conversion_notes:
   - "Italic emphasis in the body (newspaper titles, coined terms, case labels i–iv, variables X, Y, y-axis, p, F) was applied from the PDF font information and spot-checked; the italic abstract is given in roman."
   - "References: one entry per paragraph, verbatim; italics reproduced from the PDF font information (the Davis et al. 1972 entry could not be aligned automatically and has no italics in print as far as visible). Line-break spaces inside URLs removed. The author note URL 'https://doi.org/10.7910/ DVN/HVRCKM' was broken over a line and is joined."
   - "Superscripts/subscripts (affiliation markers, R², table-row subscripts) and p-value comparisons with < / > are written as inline LaTeX ($^{…}$, $p < .05$) rather than HTML, so the Markdown contains no raw angle brackets; the printed characters are unchanged."
+supplementary_material:
+  title: "Appendix: Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting"
+  author: "Omar Wasow (Princeton University)"
+  source_pdf: "Omar_urn_cambridge.org_id_binary_20200521071021942-0326_sup-mat_20200521071021942-0326_S000305542000009Xsup001.pdf"
+  pages: 34
+  source_version: "online appendix (supplementary material, linked from https://doi.org/10.1017/S000305542000009X); pdfTeX build on the 'APSR Submission Template' (p. 1 masthead: 'Submission to American Political Science Review', 'Page 1 of 43', 'doi:xx.xxxx/xxxxx'; 'This is a manuscript submitted for review.')"
+  location_in_this_file: "appended after '## Article information', starting at '# Appendix: Agenda Seeding: …'; page markers '<!-- appendix p. N (printed p. X) -->' (N = PDF page of the appendix PDF; PDF p. 34 prints folio 43)"
+  converted: "2026-11-02"
+  converted_with: "layout-aware extract.py draft (opendataloader-pdf-style) + opendataloader-pdf 2.5.14 baseline for comparison + page-by-page review against 200–300 dpi renders (CONVERSION_TOOLS_LOGS workflow); see Agenda_seeding/Wasow_2020_APSR_AgendaSeeding_appendix_markdown.zip"
+  contents: "63 tables (TABLE 1–63), 6 figures (FIGURE 1–6, images supp-fig1–6.png), 1 footnote ([^S-1]); table and figure numbers are the appendix's own and restart at 1 (they are not the article's Tables 1–4 / Figures 1–12)"
+  conversion_notes:
+    - "Removed: the invisible 'APSR Submission Template' text watermark (in the text layer on every page, not visible on the page), running heads ('Wasow' / 'Agenda Seeding') and page folios."
+    - "Kept as printed: the appendix's wording, which differs in places from the published article (e.g. 'Congressional speech', '1.6-2.5%'); typos ('Granter-tests', 'wertical', 'Dr. King’s the assassination', 'Models (5) and (6) uses'); unresolved LaTeX citations printed as a bold '?' ('data from **?**', 'Data From: (**?**)', 'Data sources: **?**, DCA dataset'); the abstract is repeated on p. 1 (italic in print, given in roman, drop capital 'H' rejoined); 'Word Count: -'; the figure note of Figure 3 is printed again under Figures 4–6."
+    - "Tables: multi-level headers flattened into one header row with ' / ' between levels; standard errors on their own row with an empty label cell; significance stars as printed (∗, U+2217); minus signs as in the text layer (− in the regression tables, ASCII '-' in Tables 13 (Log Likelihood), 14 and 15–63); 'Yes'/'No' italic only in Tables 2–3 where the print sets them in math italic; Table 1's N row has one centred value per group, placed in the Mean column. In-table 'Note: ∗p < 0.05' lines are given as '*Note:* $^{*}p < 0.05$' under the table."
+    - "As in the article part of this file, no raw angle brackets: p-value comparisons and math symbols as inline LaTeX ($p > 0.05$, $p$, $F$, $X$, $Y$, $\\rho$, R$^2$, (% Black)$^2$); the literal '>' in table text as &gt; ('Pr(&gt;F)', 'County &gt;= 90% white?')."
+    - "Line-break hyphens joined where the page image shows a syllable break (demo-/cratic, so-/cial, activ-/ity, Origi-/nal, ri-/ots, con-/trol); hyphens of '1964-1972', '1936-2012' kept."
+    - "Figures 1–6 are cropped at 200 dpi (graphic only); chart text (axes, ticks, legends) stays in the images; captions and notes are text. PDF p. 34 prints the heading 'REFERENCES' with no entries; kept as printed."
+    - "Verification: every table cell checked against 200–300 dpi renders by the chunk reviewers; an independent number-by-number comparison of the whole appendix found every number of the text layer in the Markdown except page folios and chart tick labels (which are inside the images), and no number absent from the PDF."
 ---
 
 <!-- p. 638 -->
@@ -725,3 +743,1066 @@ Omar Wasow, Assistant Professor, Department of Politics, Princeton University, o
 My thanks to Jennifer Hochschild, Gregg Lee Carter, Paul Peterson, Susan Olzak, Keith Darden, Andrew Eggers, Ryan Enos, Elena Llaudet, Jen Brea, Chris Achen, Rachel Stein, Leanne Powner, and Ali Valenzuela for their advice and suggestions. This research was also generously supported by the National Science Foundation Graduate Research Fellowship, the W. E. B. Du Bois Institute, and the Project on Justice, Welfare & Economics. I also thank Jamal Johnson, Liam Glass, and Risa Gelles-Watnick for superb research assistance. Replication files are available on Dataverse: https://doi.org/10.7910/DVN/HVRCKM.
 
 Received: October 31, 2017; revised: January 30, 2020; accepted: February 13, 2020.
+
+# Appendix: Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting
+
+<!-- Online appendix (supplementary material), converted 2026-11-02 from Omar_urn_cambridge.org_id_binary_20200521071021942-0326_sup-mat_20200521071021942-0326_S000305542000009Xsup001.pdf (34 PDF pages). Page markers: "appendix p. N (printed p. X)", N = page of that PDF. See supplementary_material in the YAML front matter. -->
+
+<!-- appendix p. 1 (printed p. 1) -->
+
+*Submission to American Political Science Review*
+
+Page 1 of 43
+
+doi:xx.xxxx/xxxxx
+
+OMAR WASOW *Princeton University*
+
+How do stigmatized minorities advance agendas when confronted with hostile majorities? Elite theories of influence posit marginal groups exert little power. I propose the concept of agenda seeding to describe how activists use methods like disruption to capture the attention of media and overcome political asymmetries. Further, I hypothesize protest tactics influence how news organizations frame demands. Evaluating black-led protests between 1960 and 1972, I find nonviolent activism, particularly when met with state or vigilante repression, drove media coverage, framing, Congressional speech and public opinion on civil rights. Counties proximate to nonviolent protests saw presidential Democratic vote share increase 1.6-2.5%. Protester-initiated violence, by contrast, helped move news agendas, frames, elite discourse and public concern toward “social control.” In 1968, using rainfall as an instrument, I find violent protests likely caused a 1.5-7.9% shift among whites towards Republicans and tipped the election. Elites may dominate political communication but hold no monopoly.
+
+Word Count: -
+
+Assistant Professor, Department of Politics, Princeton University, 201 Fisher Hall, Princeton, NJ 08544, owasow@princeton.edu, http://omarwasow.com
+
+My thanks to Jennifer Hochschild, Gregg Lee Carter, Paul Peterson, Susan Olzak, Keith Darden, Andrew Eggers, Ryan Enos, Elena Llaudet, Jen Brea, Chris Achen, Rachel Stein, Leanne Powner, and Ali Valenzuela for their advice and suggestions. This research was also generously supported by the National Science Foundation Graduate Research Fellowship, The W. E. B. Du Bois Institute, and The Project on Justice, Welfare & Economics. I also thank Jamal Johnson, Liam Glass and Risa Gelles-Watnick for superb research assistance.
+
+**This is a manuscript submitted for review.**
+
+<!-- appendix p. 2 (printed p. 2) -->
+
+## APPENDIX
+
+## SUMMARY STATISTICS FOR UNMATCHED COUNTY-LEVEL DATA.
+
+**TABLE 1.** Summary Statistics for Unmatched County-level Data.
+
+|  | DCA (nonviolent) / Controls / Mean | DCA (nonviolent) / Controls / (SD) | DCA (nonviolent) / Treated / Mean | DCA (nonviolent) / Treated / (SD) | DCA (violent) / Controls / Mean | DCA (violent) / Controls / (SD) | DCA (violent) / Treated / Mean | DCA (violent) / Treated / (SD) | Carter (violent) / Controls / Mean | Carter (violent) / Controls / (SD) | Carter (violent) / Treated / Mean | Carter (violent) / Treated / (SD) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| % Black | 3.3 | (7.5) | 14.9 | (18.0) | 6.6 | (11.5) | 13.0 | (17.4) | 5.7 | (10.7) | 13.2 | (17.3) |
+| % HS+ Educ | 43.0 | (10.4) | 36.0 | (11.5) | 43.7 | (12.1) | 41.9 | (12.4) | 44.7 | (11.3) | 41.3 | (12.7) |
+| % Own Occ Hous | 63.4 | (7.6) | 63.0 | (8.5) | 68.5 | (7.2) | 68.1 | (8.5) | 68.7 | (7.2) | 68.0 | (8.4) |
+| % Pop Foreign | 6.4 | (5.1) | 3.6 | (4.6) | 8.7 | (8.0) | 6.1 | (6.9) | 9.2 | (7.9) | 5.9 | (6.9) |
+| % Pop Growth | 2.3 | (22.1) | 8.5 | (22.8) | 1.3 | (17.9) | 9.1 | (20.2) | 0.5 | (18.0) | 9.2 | (19.9) |
+| % Unemployment | 5.0 | (2.8) | 4.8 | (1.8) | 4.9 | (2.6) | 4.5 | (1.9) | 4.8 | (2.6) | 4.5 | (1.9) |
+| % Urban | 28.9 | (28.7) | 35.9 | (28.1) | 31.3 | (28.8) | 36.7 | (28.8) | 30.9 | (29.1) | 36.6 | (28.6) |
+| % South | 0.6 | (0.1) | 21.3 | (0.4) | 7.1 | (0.3) | 18.3 | (0.4) | 3.6 | (0.2) | 19.9 | (0.4) |
+| log(PC Gov Exp) | 5.2 | (0.4) | 4.9 | (0.4) | 5.3 | (0.4) | 5.2 | (0.4) | 5.3 | (0.4) | 5.2 | (0.4) |
+| Median Age | 30.0 | (4.9) | 29.1 | (4.5) | 30.1 | (5.2) | 29.5 | (4.6) | 30.6 | (5.4) | 29.2 | (4.4) |
+| Median Inc (000s) | 5.6 | (1.3) | 5.5 | (1.7) | 6.5 | (1.5) | 7.1 | (1.9) | 6.5 | (1.4) | 7.0 | (1.9) |
+| Lag Dem Share | 44.8 | (11.0) | 48.7 | (14.7) | 56.6 | (13.7) | 53.1 | (18.7) | 57.6 | (13.5) | 52.7 | (18.4) |
+| log(Population) | 9.4 | (1.1) | 10.3 | (1.2) | 9.5 | (1.2) | 10.3 | (1.2) | 9.4 | (1.2) | 10.3 | (1.2) |
+| N | 1172 |  | 1928 |  | 1330 |  | 1770 |  | 1220 |  | 1880 |  |
+
+<!-- appendix p. 3 (printed p. 3) -->
+
+## SCATTER PLOT OF BLACK-LED PROTEST ACTIVITY, 1960 TO 1972
+
+As can be seen in Figure 1, black-led nonviolent protest activity reached unprecedented levels in the early to mid-1960s and then, toward the latter half of the decade, more than 750 events escalated to include protester-initiated violence. At the same time, public opinion and policy preferences among the white majority on issues related to race swung rapidly across time and region, from indifference to concern about civil rights to anxiety about “social control.”
+
+![FIGURE 1. When Did the 1960s Black-Led Nonviolent and Violent Protest Activity Peak?](figures/Wasow_2020_APSR_AgendaSeeding/supp-fig1.png)
+
+**FIGURE 1.** When Did the 1960s Black-Led Nonviolent and Violent Protest Activity Peak?
+
+<!-- appendix p. 4 (printed p. 4) -->
+
+## CHOROPLETH PLOT OF PROTEST ACTIVITY, APRIL 1968
+
+![FIGURE 2. Choropleth Map of Estimated Exposure to Black-Led Violent Protests Following King’s Assassination on April 4th, 1968.](figures/Wasow_2020_APSR_AgendaSeeding/supp-fig2.png)
+
+**FIGURE 2.** Choropleth Map of Estimated Exposure to Black-Led Violent Protests Following King’s Assassination on April 4th, 1968.
+
+Figure 2 presents a choropleth plot of the counties within 100 miles of a violent protest that included at least 10 arrests.
+
+<!-- appendix p. 5 (printed p. 5) -->
+
+## REGRESSION TABLES
+
+**TABLE 2.** Panel Models of Protests on County-level Democratic Presidential Vote Share, 1964-1972
+
+|  | DV: County-level Democratic Presidential vote-share / Nonviolent Protests (DCA data) / (1) | DV: County-level Democratic Presidential vote-share / Nonviolent Protests (DCA data) / (2) | DV: County-level Democratic Presidential vote-share / Violent Protests (DCA data) / (3) | DV: County-level Democratic Presidential vote-share / Violent Protests (DCA data) / (4) | DV: County-level Democratic Presidential vote-share / Violent Protests (Carter data) / (5) | DV: County-level Democratic Presidential vote-share / Violent Protests (Carter data) / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | 2.54∗ | 1.60∗ | −2.07∗ | −2.22∗ | −6.45∗ | −5.44∗ |
+|  | (0.28) | (0.26) | (0.30) | (0.26) | (0.27) | (0.30) |
+| log(PC Local Gov Exp) | −3.80∗ | −11.02∗ | −3.62∗ | −10.83∗ | −6.45∗ | −10.94∗ |
+|  | (1.34) | (1.46) | (1.34) | (1.44) | (1.34) | (1.38) |
+| % HS+ Educ | −0.69∗ | −0.48∗ | −0.68∗ | −0.46∗ | −0.24∗ | −0.25∗ |
+|  | (0.10) | (0.10) | (0.10) | (0.10) | (0.10) | (0.10) |
+| % Black | 1.29∗ | −1.00 | 1.26∗ | −0.99 | 1.49∗ | −1.12 |
+|  | (0.55) | (1.06) | (0.55) | (1.05) | (0.58) | (1.03) |
+| (% Black)$^2$ | −0.04∗ | 0.22∗ | −0.04∗ | 0.21∗ | −0.04∗ | 0.20∗ |
+|  | (0.01) | (0.09) | (0.01) | (0.09) | (0.01) | (0.09) |
+| Median Age | −0.61∗ | −1.15∗ | −0.60∗ | −1.11∗ | −0.63∗ | −1.00∗ |
+|  | (0.19) | (0.18) | (0.19) | (0.18) | (0.18) | (0.17) |
+| Median Income (000s) | −2.71∗ | −3.09∗ | −3.08∗ | −3.39∗ | −3.56∗ | −3.49∗ |
+|  | (0.25) | (0.25) | (0.25) | (0.25) | (0.25) | (0.24) |
+| % Unemployment | 2.73∗ | 1.52∗ | 2.73∗ | 1.47∗ | 1.95∗ | 1.07∗ |
+|  | (0.23) | (0.20) | (0.23) | (0.20) | (0.23) | (0.19) |
+| % Urban | −0.13∗ | −0.20∗ | −0.12∗ | −0.19∗ | −0.09 | −0.19∗ |
+|  | (0.06) | (0.05) | (0.06) | (0.05) | (0.06) | (0.05) |
+| log(Population) | −2.34 | 3.16 | −2.76 | 3.13 | −0.40 | 5.87∗ |
+|  | (2.48) | (2.39) | (2.47) | (2.37) | (2.41) | (2.17) |
+| % Owner Occ Housing | −0.89∗ | −0.86∗ | −0.88∗ | −0.84∗ | −0.70∗ | −0.82∗ |
+|  | (0.06) | (0.06) | (0.06) | (0.06) | (0.06) | (0.06) |
+| % Pop Growth | 0.05∗ | 0.06∗ | 0.04∗ | 0.05∗ | −0.002 | 0.04∗ |
+|  | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) |
+| % Pop Foreign | −0.01 | 0.54∗ | 0.07 | 0.61∗ | −0.02 | 0.48∗ |
+|  | (0.07) | (0.07) | (0.07) | (0.07) | (0.07) | (0.06) |
+| Lagged Dem Vote Share | −0.31∗ | −0.48∗ | −0.30∗ | −0.47∗ | −0.30∗ | −0.40∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| County fixed effects? | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* |
+| County at least 90% white? | *No* | *Yes* | *No* | *Yes* | *No* | *Yes* |
+| Observations | 9,279 | 6,639 | 9,279 | 6,639 | 9,279 | 6,639 |
+| R$^2$ | 0.67 | 0.81 | 0.67 | 0.81 | 0.69 | 0.82 |
+
+*Note:* $^{*}p < 0.05$
+
+Models (1) through (4) use data from DCA and the protest ‘treatment’ is calculated as a function of the estimated number of participants in the protest. Models (5) and (6) uses data from **?** and the protest ‘treatment’ is calculated as a function of estimated number of people arrested in the violent protest. Models (1), (3) and (5) use data from all counties. Models (2), (4) and (6) only include counties that are at least 90% white. All models use county fixed effects (not shown) and robust and clustered standard errors at the county level to address serial correlation.
+
+<!-- appendix p. 6 (printed p. 6) -->
+
+**TABLE 3.** Matched County Panel Models of Protests on Democratic Presidential Vote Share, 1964-1972
+
+|  | DV: County-level Democratic Presidential vote-share / Nonviolent Protests (DCA data) / (1) | DV: County-level Democratic Presidential vote-share / Nonviolent Protests (DCA data) / (2) | DV: County-level Democratic Presidential vote-share / Violent Protests (DCA data) / (3) | DV: County-level Democratic Presidential vote-share / Violent Protests (DCA data) / (4) | DV: County-level Democratic Presidential vote-share / Violent Protests (Carter data) / (5) | DV: County-level Democratic Presidential vote-share / Violent Protests (Carter data) / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | 1.67∗ | 1.55∗ | −0.94∗ | −1.51∗ | −5.74∗ | −4.81∗ |
+|  | (0.36) | (0.30) | (0.35) | (0.30) | (0.37) | (0.41) |
+| log(PC Local Gov Exp) | −7.93∗ | −12.40∗ | −3.95∗ | −8.79∗ | −8.10∗ | −9.28∗ |
+|  | (1.88) | (2.09) | (1.69) | (1.80) | (1.81) | (1.76) |
+| % HS+ Educ | −1.00∗ | −0.97∗ | −1.05∗ | −0.88∗ | −0.76∗ | −0.61∗ |
+|  | (0.14) | (0.14) | (0.13) | (0.13) | (0.14) | (0.13) |
+| % Black | 1.08∗ | −1.92 | 0.55 | −2.14 | 0.88 | −3.24∗ |
+|  | (0.49) | (1.66) | (0.56) | (1.55) | (0.56) | (1.48) |
+| (% Black)$^2$ | −0.02∗ | 0.33∗ | −0.02∗ | 0.34∗ | −0.02∗ | 0.46∗ |
+|  | (0.01) | (0.14) | (0.01) | (0.12) | (0.01) | (0.12) |
+| Median Age | −1.27∗ | −1.57∗ | −0.67∗ | −1.39∗ | −0.66∗ | −0.83∗ |
+|  | (0.25) | (0.25) | (0.23) | (0.22) | (0.22) | (0.21) |
+| Median Income (000s) | −3.03∗ | −2.84∗ | −2.65∗ | −3.59∗ | −3.36∗ | −3.83∗ |
+|  | (0.33) | (0.35) | (0.31) | (0.31) | (0.32) | (0.31) |
+| % Unemployment | 2.08∗ | 1.42∗ | 2.92∗ | 1.44∗ | 2.01∗ | 1.20∗ |
+|  | (0.28) | (0.25) | (0.30) | (0.24) | (0.30) | (0.23) |
+| % Urban | −0.11 | −0.26∗ | −0.18∗ | −0.28∗ | −0.24∗ | −0.30∗ |
+|  | (0.08) | (0.07) | (0.07) | (0.06) | (0.08) | (0.06) |
+| log(Population) | −1.27 | −1.20 | −2.11 | −0.43 | 1.16 | 6.44∗ |
+|  | (3.01) | (2.98) | (2.93) | (2.92) | (3.00) | (2.70) |
+| % Owner Occ Housing | −0.73∗ | −0.59∗ | −0.78∗ | −0.64∗ | −0.56∗ | −0.66∗ |
+|  | (0.09) | (0.08) | (0.09) | (0.07) | (0.08) | (0.07) |
+| % Pop Growth | 0.05∗ | 0.07∗ | 0.02 | 0.06∗ | 0.005 | 0.06∗ |
+|  | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) |
+| % Pop Foreign | 0.82∗ | 0.94∗ | 0.19 | 0.93∗ | 0.47∗ | 0.85∗ |
+|  | (0.11) | (0.10) | (0.11) | (0.09) | (0.11) | (0.10) |
+| Lagged Dem Vote Share | −0.44∗ | −0.52∗ | −0.30∗ | −0.50∗ | −0.33∗ | −0.44∗ |
+|  | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) |
+| County fixed effects? | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* | *Yes* |
+| County at least 90% white? | *No* | *Yes* | *No* | *Yes* | *No* | *Yes* |
+| Observations | 4,062 | 3,534 | 5,466 | 3,900 | 4,560 | 3,475 |
+| R$^2$ | 0.78 | 0.83 | 0.69 | 0.82 | 0.74 | 0.83 |
+
+*Note:* $^{*}p < 0.05$
+
+Models (1) through (4) use data from DCA and the protest ‘treatment’ is calculated as a function of the estimated number of participants in the protest. Models (5) and (6) uses data from **?** and the protest ‘treatment’ is calculated as a function of estimated number of people arrested in the violent protest. Models (1), (3) and (5) use a matched subset of all counties. Models (2), (4) and (6) use matched subsets of counties that are at least 90% white. All models use county fixed effects (not shown) and robust and clustered standard errors at the county level to address serial correlation.
+
+<!-- appendix p. 7 (printed p. 7) -->
+
+**TABLE 4.** Spatial Panel Models
+
+|  | DV: County-level Change in Democratic Vote Share / Nonviolent Protests (Olzak data) / (1) | DV: County-level Change in Democratic Vote Share / Violent Protests (Olzak data) / (2) | DV: County-level Change in Democratic Vote Share / Violent Protests (Carter data) / (3) |
+|---|---|---|---|
+| Protest ‘Treatment’ | 1.74∗ | −1.83∗ | −5.41∗ |
+|  | (0.25) | (0.23) | (0.23) |
+| log(PC Local Gov Exp) | −6.60∗ | −6.58∗ | −7.70∗ |
+|  | (0.92) | (0.92) | (0.91) |
+| % HS+ Educ | −0.32∗ | −0.29∗ | −0.11 |
+|  | (0.07) | (0.07) | (0.07) |
+| % Black | 1.51∗ | 1.49∗ | 1.57∗ |
+|  | (0.21) | (0.21) | (0.21) |
+| (% Black)$^2$ | −0.04∗ | −0.04∗ | −0.04∗ |
+|  | (0.002) | (0.002) | (0.002) |
+| Median Age | −0.38∗ | −0.35∗ | −0.43∗ |
+|  | (0.13) | (0.13) | (0.13) |
+| Median Income (000s) | −3.18∗ | −3.47∗ | −3.63∗ |
+|  | (0.18) | (0.18) | (0.17) |
+| % Unemployment | 2.16∗ | 2.11∗ | 1.71∗ |
+|  | (0.14) | (0.14) | (0.14) |
+| % Urban | −0.07∗ | −0.06 | −0.06∗ |
+|  | (0.03) | (0.03) | (0.03) |
+| log(Population) | −0.93 | −1.18 | 0.34 |
+|  | (1.64) | (1.63) | (1.61) |
+| % Owner Occ Housing | −0.72∗ | −0.70∗ | −0.63∗ |
+|  | (0.04) | (0.04) | (0.04) |
+| % Pop Growth | 0.01 | 0.01 | −0.01 |
+|  | (0.01) | (0.01) | (0.01) |
+| % Pop Foreign | 0.06 | 0.13∗ | 0.01 |
+|  | (0.06) | (0.06) | (0.05) |
+| Lagged Dem Vote Share | −0.27∗ | −0.26∗ | −0.28∗ |
+|  | (0.01) | (0.01) | (0.01) |
+| N | 9264 | 9264 | 9264 |
+| $\\rho$ | 0.32 | 0.33 | 0.27 |
+| $\sigma_v^2$ | 68.3 | 68.09 | 64.85 |
+
+*Note:* $^{*}p < 0.05$
+
+<!-- appendix p. 8 (printed p. 8) -->
+
+**TABLE 5.** Panel models of nonviolent protests (DCA data) on change in county-level democratic presidential vote-share, 1964-1972 (with 90% white counties, propensity score matching, county and year fixed effects)
+
+|  | DV: County-level Democratic Presidential Vote-share / No FE / (1) | DV: County-level Democratic Presidential Vote-share / C FE / (2) | DV: County-level Democratic Presidential Vote-share / C-Y FE / (3) | DV: County-level Democratic Presidential Vote-share / Wht, No FE / (4) | DV: County-level Democratic Presidential Vote-share / Wht, C FE / (5) | DV: County-level Democratic Presidential Vote-share / Wht, C-Y FE / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | 0.99∗ | 1.84∗ | 0.84∗ | 2.21∗ | 1.29∗ | 0.71∗ |
+|  | (0.33) | (0.38) | (0.32) | (0.36) | (0.35) | (0.29) |
+| log(PC Local Gov Exp) | −1.68∗ | −9.20∗ | 2.32 | −0.29 | −12.01∗ | 0.17 |
+|  | (0.52) | (1.60) | (1.53) | (0.58) | (1.58) | (1.50) |
+| % HS+ Educ | 0.03 | −1.04∗ | 0.87∗ | 0.02 | −0.90∗ | 0.79∗ |
+|  | (0.02) | (0.11) | (0.11) | (0.02) | (0.12) | (0.11) |
+| % Black | −0.64∗ | 0.92∗ | 1.36∗ | −1.45∗ | −3.01∗ | −1.38 |
+|  | (0.03) | (0.36) | (0.29) | (0.21) | (1.09) | (0.88) |
+| (% Black)$^2$ | 0.01∗ | −0.02∗ | −0.02∗ | 0.08∗ | 0.41∗ | 0.23∗ |
+|  | (0.001) | (0.004) | (0.003) | (0.02) | (0.09) | (0.07) |
+| Median Age | 0.17∗ | −1.30∗ | 0.09 | 0.05 | −1.49∗ | −0.04 |
+|  | (0.04) | (0.21) | (0.18) | (0.04) | (0.20) | (0.16) |
+| Median Income (000s) | −1.86∗ | −2.64∗ | 0.47 | −2.46∗ | −2.92∗ | 0.33 |
+|  | (0.11) | (0.29) | (0.34) | (0.12) | (0.28) | (0.33) |
+| % Unemployment | 0.70∗ | 2.05∗ | 1.39∗ | 0.54∗ | 1.42∗ | 1.24∗ |
+|  | (0.07) | (0.22) | (0.19) | (0.07) | (0.21) | (0.17) |
+| % Urban | 0.01 | −0.21∗ | −0.03 | 0.02∗ | −0.24∗ | −0.05 |
+|  | (0.01) | (0.05) | (0.04) | (0.01) | (0.05) | (0.04) |
+| log(Population) | 1.93∗ | 0.02 | −7.74∗ | 2.77∗ | 1.11 | −6.80∗ |
+|  | (0.19) | (2.58) | (2.18) | (0.21) | (2.49) | (2.12) |
+| % Owner Occ Housing | −0.39∗ | −0.73∗ | −0.17∗ | −0.58∗ | −0.66∗ | −0.26∗ |
+|  | (0.02) | (0.06) | (0.05) | (0.02) | (0.06) | (0.05) |
+| % Pop Growth | 0.01 | 0.05∗ | 0.01 | −0.01 | 0.06∗ | 0.02 |
+|  | (0.01) | (0.02) | (0.01) | (0.01) | (0.02) | (0.02) |
+| % Pop Foreign | 0.18∗ | 0.65∗ | 0.95∗ | 0.17∗ | 0.88∗ | 1.01∗ |
+|  | (0.03) | (0.10) | (0.08) | (0.03) | (0.09) | (0.08) |
+| Lagged Dem Vote Share | 0.30∗ | −0.42∗ | −0.14∗ | 0.24∗ | −0.50∗ | −0.05∗ |
+|  | (0.01) | (0.02) | (0.02) | (0.01) | (0.02) | (0.02) |
+| County &gt;= 90% white? | No | No | No | Yes | Yes | Yes |
+| Matching? | No | Yes | Yes | No | Yes | Yes |
+| County fixed effects? | No | Yes | Yes | No | Yes | Yes |
+| Year fixed effects? | No | No | Yes | No | No | Yes |
+| Observations | 9,279 | 4,050 | 4,050 | 6,639 | 3,530 | 3,530 |
+| R$^2$ | 0.35 | 0.77 | 0.13 | 0.37 | 0.83 | 0.14 |
+
+*Note:* $^{*}p < 0.05$
+
+<!-- appendix p. 9 (printed p. 9) -->
+
+**TABLE 6.** Panel models of violent protests (DCA data) on change in county-level democratic presidential vote-share, 1964-1972 (with 90% white counties, propensity score matching, county and year fixed effects)
+
+|  | DV: County-level Democratic Presidential Vote-share / No FE / (1) | DV: County-level Democratic Presidential Vote-share / C FE / (2) | DV: County-level Democratic Presidential Vote-share / C-Y FE / (3) | DV: County-level Democratic Presidential Vote-share / Wht, No FE / (4) | DV: County-level Democratic Presidential Vote-share / Wht, C FE / (5) | DV: County-level Democratic Presidential Vote-share / Wht, C-Y FE / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | −4.91∗ | −0.91∗ | −0.88∗ | −4.46∗ | −1.62∗ | −0.55∗ |
+|  | (0.33) | (0.35) | (0.30) | (0.36) | (0.34) | (0.28) |
+| log(PC Local Gov Exp) | −2.46∗ | −3.77∗ | 0.76 | −1.11 | −9.18∗ | 1.94 |
+|  | (0.51) | (1.49) | (1.48) | (0.58) | (1.51) | (1.45) |
+| % HS+ Educ | −0.02 | −1.09∗ | 0.84∗ | −0.04 | −0.97∗ | 0.83∗ |
+|  | (0.02) | (0.11) | (0.11) | (0.02) | (0.11) | (0.10) |
+| % Black | −0.59∗ | 0.40 | 1.13∗ | −1.41∗ | −2.36∗ | −0.72 |
+|  | (0.03) | (0.33) | (0.28) | (0.21) | (1.06) | (0.88) |
+| (% Black)$^2$ | 0.01∗ | −0.02∗ | −0.03∗ | 0.08∗ | 0.40∗ | 0.22∗ |
+|  | (0.001) | (0.004) | (0.003) | (0.02) | (0.09) | (0.08) |
+| Median Age | 0.20∗ | −0.85∗ | 0.23 | 0.09∗ | −1.29∗ | 0.16 |
+|  | (0.03) | (0.20) | (0.18) | (0.04) | (0.18) | (0.16) |
+| Median Income (000s) | −1.63∗ | −2.87∗ | −0.55 | −2.19∗ | −3.47∗ | −0.28 |
+|  | (0.11) | (0.28) | (0.36) | (0.12) | (0.28) | (0.33) |
+| % Unemployment | 0.54∗ | 2.96∗ | 1.70∗ | 0.38∗ | 1.43∗ | 1.23∗ |
+|  | (0.07) | (0.21) | (0.19) | (0.07) | (0.20) | (0.17) |
+| % Urban | −0.01 | −0.26∗ | −0.02 | −0.01 | −0.26∗ | −0.05 |
+|  | (0.01) | (0.05) | (0.04) | (0.01) | (0.05) | (0.04) |
+| log(Population) | 2.70∗ | −1.59 | −12.10∗ | 3.74∗ | 1.20 | −5.41∗ |
+|  | (0.18) | (2.55) | (2.27) | (0.20) | (2.45) | (2.12) |
+| % Owner Occ Housing | −0.40∗ | −0.79∗ | −0.09 | −0.59∗ | −0.56∗ | −0.20∗ |
+|  | (0.02) | (0.06) | (0.05) | (0.02) | (0.05) | (0.04) |
+| % Pop Growth | 0.02∗ | 0.02 | −0.03 | 0.01 | 0.05∗ | 0.03 |
+|  | (0.01) | (0.02) | (0.02) | (0.01) | (0.02) | (0.01) |
+| % Pop Foreign | 0.13∗ | 0.36∗ | 0.64∗ | 0.11∗ | 0.87∗ | 1.02∗ |
+|  | (0.03) | (0.10) | (0.08) | (0.03) | (0.09) | (0.07) |
+| Lagged Dem Vote Share | 0.31∗ | −0.32∗ | −0.20∗ | 0.27∗ | −0.50∗ | −0.13∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.02) | (0.02) |
+| County &gt;= 90% white? | No | No | No | Yes | Yes | Yes |
+| Matching? | No | Yes | Yes | No | Yes | Yes |
+| County fixed effects? | No | Yes | Yes | No | Yes | Yes |
+| Year fixed effects? | No | No | Yes | No | No | Yes |
+| Observations | 9,279 | 5,460 | 5,460 | 6,639 | 3,888 | 3,888 |
+| R$^2$ | 0.36 | 0.71 | 0.14 | 0.38 | 0.82 | 0.13 |
+
+*Note:* $^{*}p < 0.05$
+
+<!-- appendix p. 10 (printed p. 10) -->
+
+**TABLE 7.** Panel models of violent protests (Carter data) on change in county-level democratic presidential vote-share, 1964-1972 (with 90% white counties, propensity score matching, county and year fixed effects)
+
+|  | DV: County-level Democratic Presidential Vote-share / No FE / (1) | DV: County-level Democratic Presidential Vote-share / C FE / (2) | DV: County-level Democratic Presidential Vote-share / C-Y FE / (3) | DV: County-level Democratic Presidential Vote-share / Wht, No FE / (4) | DV: County-level Democratic Presidential Vote-share / Wht, C FE / (5) | DV: County-level Democratic Presidential Vote-share / Wht, C-Y FE / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | −8.77∗ | −5.18∗ | −1.24∗ | −11.36∗ | −5.07∗ | −1.85∗ |
+|  | (0.32) | (0.40) | (0.40) | (0.37) | (0.39) | (0.36) |
+| log(PC Local Gov Exp) | −1.86∗ | −7.80∗ | 0.31 | −0.53 | −8.14∗ | 3.12∗ |
+|  | (0.50) | (1.59) | (1.65) | (0.54) | (1.59) | (1.56) |
+| % HS+ Educ | −0.01 | −0.98∗ | 0.56∗ | −0.03 | −0.68∗ | 0.83∗ |
+|  | (0.02) | (0.11) | (0.12) | (0.02) | (0.11) | (0.11) |
+| % Black | −0.59∗ | 1.01∗ | 1.64∗ | −1.42∗ | −2.66∗ | −1.63 |
+|  | (0.03) | (0.33) | (0.30) | (0.20) | (1.07) | (0.91) |
+| (% Black)$^2$ | 0.01∗ | −0.02∗ | −0.03∗ | 0.07∗ | 0.36∗ | 0.24∗ |
+|  | (0.001) | (0.004) | (0.003) | (0.02) | (0.09) | (0.08) |
+| Median Age | 0.18∗ | −0.76∗ | 0.17 | 0.11∗ | −1.17∗ | 0.08 |
+|  | (0.03) | (0.22) | (0.20) | (0.03) | (0.19) | (0.17) |
+| Median Income (000s) | −1.61∗ | −3.00∗ | 0.36 | −2.06∗ | −3.76∗ | −0.18 |
+|  | (0.10) | (0.30) | (0.39) | (0.11) | (0.29) | (0.35) |
+| % Unemployment | 0.47∗ | 2.19∗ | 1.63∗ | 0.26∗ | 1.25∗ | 1.26∗ |
+|  | (0.06) | (0.23) | (0.21) | (0.07) | (0.21) | (0.18) |
+| % Urban | −0.01 | −0.14∗ | 0.03 | −0.03∗ | −0.28∗ | −0.05 |
+|  | (0.01) | (0.06) | (0.05) | (0.01) | (0.06) | (0.05) |
+| log(Population) | 2.99∗ | 0.96 | −9.90∗ | 4.61∗ | 2.48 | −6.86∗ |
+|  | (0.18) | (2.64) | (2.44) | (0.19) | (2.57) | (2.27) |
+| % Owner Occ Housing | −0.37∗ | −0.50∗ | −0.01 | −0.55∗ | −0.66∗ | −0.24∗ |
+|  | (0.02) | (0.06) | (0.06) | (0.02) | (0.05) | (0.05) |
+| % Pop Growth | 0.02∗ | 0.01 | −0.01 | 0.01 | 0.05∗ | 0.03 |
+|  | (0.01) | (0.02) | (0.02) | (0.01) | (0.02) | (0.02) |
+| % Pop Foreign | 0.15∗ | 0.36∗ | 0.60∗ | 0.07∗ | 0.83∗ | 1.00∗ |
+|  | (0.02) | (0.10) | (0.09) | (0.02) | (0.09) | (0.08) |
+| Lagged Dem Vote Share | 0.33∗ | −0.33∗ | −0.22∗ | 0.35∗ | −0.42∗ | −0.12∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.02) | (0.02) |
+| County &gt;= 90% white? | No | No | No | Yes | Yes | Yes |
+| Matching? | No | Yes | Yes | No | Yes | Yes |
+| County fixed effects? | No | Yes | Yes | No | Yes | Yes |
+| Year fixed effects? | No | No | Yes | No | No | Yes |
+| Observations | 9,279 | 4,554 | 4,554 | 6,639 | 3,458 | 3,458 |
+| R$^2$ | 0.39 | 0.74 | 0.13 | 0.45 | 0.83 | 0.14 |
+
+*Note:* $^{*}p < 0.05$
+
+<!-- appendix p. 11 (printed p. 11) -->
+
+**TABLE 8.** Panel models of nonviolent protests (DCA data) on change in county-level democratic presidential vote-share, 1964-1972 (with 90% white counties, CBPS matching, county and year fixed effects)
+
+|  | DV: County-level Democratic Presidential Vote-share / No FE / (1) | DV: County-level Democratic Presidential Vote-share / C FE / (2) | DV: County-level Democratic Presidential Vote-share / C-Y FE / (3) | DV: County-level Democratic Presidential Vote-share / Wht, No FE / (4) | DV: County-level Democratic Presidential Vote-share / Wht, C FE / (5) | DV: County-level Democratic Presidential Vote-share / Wht, C-Y FE / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | 0.99∗ | 2.80∗ | 1.96∗ | 2.21∗ | 1.66∗ | 0.95∗ |
+|  | (0.33) | (0.29) | (0.26) | (0.36) | (0.28) | (0.23) |
+| log(PC Local Gov Exp) | −1.68∗ | −2.88∗ | 5.68∗ | −0.29 | −11.54∗ | −0.03 |
+|  | (0.52) | (1.11) | (1.12) | (0.58) | (1.18) | (1.12) |
+| % HS+ Educ | 0.03 | −1.02∗ | 0.78∗ | 0.02 | −0.62∗ | 0.77∗ |
+|  | (0.02) | (0.08) | (0.08) | (0.02) | (0.08) | (0.07) |
+| % Black | −0.64∗ | −0.28 | 0.31 | −1.45∗ | −1.21 | −0.49 |
+|  | (0.03) | (0.21) | (0.18) | (0.21) | (0.79) | (0.64) |
+| (% Black)$^2$ | 0.01∗ | −0.01∗ | −0.01∗ | 0.08∗ | 0.25∗ | 0.15∗ |
+|  | (0.001) | (0.002) | (0.001) | (0.02) | (0.07) | (0.05) |
+| Median Age | 0.17∗ | −0.69∗ | 0.21 | 0.05 | −1.24∗ | 0.03 |
+|  | (0.04) | (0.16) | (0.14) | (0.04) | (0.14) | (0.12) |
+| Median Income (000s) | −1.86∗ | −2.77∗ | −0.02 | −2.46∗ | −3.04∗ | 0.14 |
+|  | (0.11) | (0.21) | (0.26) | (0.12) | (0.21) | (0.24) |
+| % Unemployment | 0.70∗ | 2.76∗ | 1.67∗ | 0.54∗ | 1.52∗ | 1.02∗ |
+|  | (0.07) | (0.15) | (0.14) | (0.07) | (0.15) | (0.12) |
+| % Urban | 0.01 | −0.22∗ | −0.05 | 0.02∗ | −0.22∗ | −0.02 |
+|  | (0.01) | (0.04) | (0.03) | (0.01) | (0.04) | (0.03) |
+| log(Population) | 1.93∗ | −0.04 | −9.18∗ | 2.77∗ | 1.92 | −4.12∗ |
+|  | (0.19) | (1.94) | (1.74) | (0.21) | (1.85) | (1.57) |
+| % Owner Occ Housing | −0.39∗ | −0.77∗ | −0.15∗ | −0.58∗ | −0.76∗ | −0.27∗ |
+|  | (0.02) | (0.04) | (0.04) | (0.02) | (0.04) | (0.03) |
+| % Pop Growth | 0.01 | 0.06∗ | −0.01 | −0.01 | 0.08∗ | 0.03∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| % Pop Foreign | 0.18∗ | 0.20∗ | 0.51∗ | 0.17∗ | 0.64∗ | 0.87∗ |
+|  | (0.03) | (0.07) | (0.06) | (0.03) | (0.06) | (0.05) |
+| Lagged Dem Vote Share | 0.30∗ | −0.34∗ | −0.24∗ | 0.24∗ | −0.48∗ | −0.10∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| County &gt;= 90% white? | No | No | No | Yes | Yes | Yes |
+| Matching? | No | Yes | Yes | No | Yes | Yes |
+| County fixed effects? | No | Yes | Yes | No | Yes | Yes |
+| Year fixed effects? | No | No | Yes | No | No | Yes |
+| Observations | 9,279 | 9,279 | 9,279 | 6,639 | 6,639 | 6,639 |
+| R$^2$ | 0.35 | 0.66 | 0.13 | 0.37 | 0.80 | 0.12 |
+
+*Note:* $^{*}p < 0.05$
+
+<!-- appendix p. 12 (printed p. 12) -->
+
+**TABLE 9.** Panel models of violent protests (DCA data) on change in county-level democratic presidential vote-share, 1964-1972 (with 90% white counties, CBPS matching, county and year fixed effects)
+
+|  | DV: County-level Democratic Presidential Vote-share / No FE / (1) | DV: County-level Democratic Presidential Vote-share / C FE / (2) | DV: County-level Democratic Presidential Vote-share / C-Y FE / (3) | DV: County-level Democratic Presidential Vote-share / Wht, No FE / (4) | DV: County-level Democratic Presidential Vote-share / Wht, C FE / (5) | DV: County-level Democratic Presidential Vote-share / Wht, C-Y FE / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | −4.91∗ | −1.27∗ | −1.37∗ | −4.46∗ | −1.92∗ | −0.73∗ |
+|  | (0.33) | (0.28) | (0.24) | (0.36) | (0.26) | (0.22) |
+| log(PC Local Gov Exp) | −2.46∗ | −3.56∗ | 0.66 | −1.11 | −9.56∗ | 0.73 |
+|  | (0.51) | (1.16) | (1.17) | (0.58) | (1.13) | (1.08) |
+| % HS+ Educ | −0.02 | −0.91∗ | 0.73∗ | −0.04 | −0.61∗ | 0.78∗ |
+|  | (0.02) | (0.08) | (0.08) | (0.02) | (0.08) | (0.07) |
+| % Black | −0.59∗ | 0.11 | 0.98∗ | −1.41∗ | −1.78∗ | −0.85 |
+|  | (0.03) | (0.24) | (0.22) | (0.21) | (0.79) | (0.66) |
+| (% Black)$^2$ | 0.01∗ | −0.02∗ | −0.03∗ | 0.08∗ | 0.32∗ | 0.20∗ |
+|  | (0.001) | (0.003) | (0.002) | (0.02) | (0.07) | (0.06) |
+| Median Age | 0.20∗ | −0.72∗ | 0.16 | 0.09∗ | −1.18∗ | 0.03 |
+|  | (0.03) | (0.16) | (0.15) | (0.04) | (0.14) | (0.12) |
+| Median Income (000s) | −1.63∗ | −2.93∗ | −0.50 | −2.19∗ | −3.51∗ | −0.29 |
+|  | (0.11) | (0.22) | (0.28) | (0.12) | (0.20) | (0.25) |
+| % Unemployment | 0.54∗ | 3.00∗ | 1.78∗ | 0.38∗ | 1.42∗ | 1.11∗ |
+|  | (0.07) | (0.17) | (0.15) | (0.07) | (0.15) | (0.13) |
+| % Urban | −0.01 | −0.14∗ | 0.03 | −0.01 | −0.19∗ | −0.02 |
+|  | (0.01) | (0.04) | (0.04) | (0.01) | (0.04) | (0.03) |
+| log(Population) | 2.70∗ | −3.45 | −10.65∗ | 3.74∗ | 2.59 | −3.30∗ |
+|  | (0.18) | (2.01) | (1.82) | (0.20) | (1.86) | (1.60) |
+| % Owner Occ Housing | −0.40∗ | −0.76∗ | −0.04 | −0.59∗ | −0.73∗ | −0.23∗ |
+|  | (0.02) | (0.04) | (0.04) | (0.02) | (0.04) | (0.03) |
+| % Pop Growth | 0.02∗ | 0.04∗ | −0.03∗ | 0.01 | 0.06∗ | 0.04∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| % Pop Foreign | 0.13∗ | 0.09 | 0.40∗ | 0.11∗ | 0.65∗ | 0.85∗ |
+|  | (0.03) | (0.07) | (0.06) | (0.03) | (0.06) | (0.05) |
+| Lagged Dem Vote Share | 0.31∗ | −0.30∗ | −0.20∗ | 0.27∗ | −0.48∗ | −0.15∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| County &gt;= 90% white? | No | No | No | Yes | Yes | Yes |
+| Matching? | No | Yes | Yes | No | Yes | Yes |
+| County fixed effects? | No | Yes | Yes | No | Yes | Yes |
+| Year fixed effects? | No | No | Yes | No | No | Yes |
+| Observations | 9,279 | 9,279 | 9,279 | 6,639 | 6,639 | 6,639 |
+| R$^2$ | 0.36 | 0.66 | 0.16 | 0.38 | 0.81 | 0.12 |
+
+*Note:* $^{*}p < 0.05$
+
+<!-- appendix p. 13 (printed p. 13) -->
+
+**TABLE 10.** Panel models of violent protests (Carter data) on change in county-level democratic presidential vote-share, 1964-1972 (with 90% white counties, CBPS matching, county and year fixed effects)
+
+|  | DV: County-level Democratic Presidential Vote-share / No FE / (1) | DV: County-level Democratic Presidential Vote-share / C FE / (2) | DV: County-level Democratic Presidential Vote-share / C-Y FE / (3) | DV: County-level Democratic Presidential Vote-share / Wht, No FE / (4) | DV: County-level Democratic Presidential Vote-share / Wht, C FE / (5) | DV: County-level Democratic Presidential Vote-share / Wht, C-Y FE / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | −8.77∗ | −5.37∗ | −1.81∗ | −11.36∗ | −5.14∗ | −2.17∗ |
+|  | (0.32) | (0.30) | (0.31) | (0.37) | (0.28) | (0.25) |
+| log(PC Local Gov Exp) | −1.86∗ | −6.05∗ | −0.60 | −0.53 | −10.39∗ | 0.44 |
+|  | (0.50) | (1.20) | (1.28) | (0.54) | (1.10) | (1.08) |
+| % HS+ Educ | −0.01 | −0.58∗ | 0.66∗ | −0.03 | −0.39∗ | 0.75∗ |
+|  | (0.02) | (0.08) | (0.09) | (0.02) | (0.08) | (0.07) |
+| % Black | −0.59∗ | 0.65∗ | 1.32∗ | −1.42∗ | −1.70∗ | −0.84 |
+|  | (0.03) | (0.24) | (0.22) | (0.20) | (0.76) | (0.64) |
+| (% Black)$^2$ | 0.01∗ | −0.03∗ | −0.03∗ | 0.07∗ | 0.32∗ | 0.20∗ |
+|  | (0.001) | (0.002) | (0.002) | (0.02) | (0.06) | (0.05) |
+| Median Age | 0.18∗ | −0.84∗ | −0.17 | 0.11∗ | −0.96∗ | 0.09 |
+|  | (0.03) | (0.17) | (0.16) | (0.03) | (0.14) | (0.12) |
+| Median Income (000s) | −1.61∗ | −3.30∗ | −0.51 | −2.06∗ | −3.74∗ | −0.21 |
+|  | (0.10) | (0.22) | (0.31) | (0.11) | (0.20) | (0.25) |
+| % Unemployment | 0.47∗ | 2.73∗ | 2.11∗ | 0.26∗ | 1.10∗ | 1.01∗ |
+|  | (0.06) | (0.17) | (0.16) | (0.07) | (0.14) | (0.12) |
+| % Urban | −0.01 | 0.07 | 0.20∗ | −0.03∗ | −0.21∗ | −0.02 |
+|  | (0.01) | (0.04) | (0.04) | (0.01) | (0.04) | (0.03) |
+| log(Population) | 2.99∗ | −8.68∗ | −16.70∗ | 4.61∗ | 5.62∗ | −2.26 |
+|  | (0.18) | (2.07) | (1.98) | (0.19) | (1.80) | (1.58) |
+| % Owner Occ Housing | −0.37∗ | −0.50∗ | 0.02 | −0.55∗ | −0.67∗ | −0.22∗ |
+|  | (0.02) | (0.04) | (0.05) | (0.02) | (0.04) | (0.03) |
+| % Pop Growth | 0.02∗ | −0.01 | −0.04∗ | 0.01 | 0.05∗ | 0.04∗ |
+|  | (0.01) | (0.02) | (0.01) | (0.01) | (0.01) | (0.01) |
+| % Pop Foreign | 0.15∗ | −0.04 | 0.22∗ | 0.07∗ | 0.59∗ | 0.82∗ |
+|  | (0.02) | (0.07) | (0.07) | (0.02) | (0.06) | (0.05) |
+| Lagged Dem Vote Share | 0.33∗ | −0.31∗ | −0.25∗ | 0.35∗ | −0.43∗ | −0.16∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| County &gt;= 90% white? | No | No | No | Yes | Yes | Yes |
+| Matching? | No | Yes | Yes | No | Yes | Yes |
+| County fixed effects? | No | Yes | Yes | No | Yes | Yes |
+| Year fixed effects? | No | No | Yes | No | No | Yes |
+| Observations | 9,279 | 9,279 | 9,279 | 6,639 | 6,639 | 6,639 |
+| R$^2$ | 0.39 | 0.69 | 0.16 | 0.45 | 0.82 | 0.13 |
+
+*Note:* $^{*}p < 0.05$
+
+<!-- appendix p. 14 (printed p. 14) -->
+
+**TABLE 11.** OLS Models of April 1968 Protests on Democratic Vote Share
+
+|  | DV: County-level Democratic Presidential Vote-share / OLS / (1) | DV: County-level Democratic Presidential Vote-share / OLS / (2) | DV: County-level Democratic Presidential Vote-share / Mahalanobis / (3) | DV: County-level Democratic Presidential Vote-share / Mahalanobis / (4) | DV: County-level Democratic Presidential Vote-share / CBPS / (5) | DV: County-level Democratic Presidential Vote-share / CBPS / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | −1.76∗ | −1.63∗ | −1.73∗ | −1.63∗ | −1.76∗ | −1.69∗ |
+|  | (0.27) | (0.26) | (0.26) | (0.28) | (0.23) | (0.22) |
+| log(PC Local Gov Exp) | −1.54∗ | −0.49 | −3.22∗ | −2.09∗ | −1.43∗ | −1.05∗ |
+|  | (0.43) | (0.43) | (0.47) | (0.58) | (0.44) | (0.45) |
+| % HS+ Educ | 0.14∗ | 0.08∗ | 0.17∗ | 0.10∗ | 0.16∗ | 0.10∗ |
+|  | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) |
+| % Black | −0.31∗ | −0.47∗ | −0.28∗ | −0.80∗ | −0.29∗ | −0.56∗ |
+|  | (0.02) | (0.15) | (0.03) | (0.18) | (0.02) | (0.15) |
+| (% Black)$^2$ | 0.01∗ | 0.01 | 0.01∗ | 0.05∗ | 0.01∗ | 0.01 |
+|  | (0.0004) | (0.02) | (0.0004) | (0.02) | (0.0004) | (0.02) |
+| Median Age | 0.002 | −0.02 | 0.003 | −0.01 | 0.005 | −0.01 |
+|  | (0.03) | (0.03) | (0.03) | (0.04) | (0.03) | (0.03) |
+| Median Income (000s) | −0.33∗ | −0.13 | −0.10 | 0.30 | −0.29∗ | 0.02 |
+|  | (0.13) | (0.13) | (0.16) | (0.18) | (0.13) | (0.13) |
+| % Unemployment | 0.65∗ | 0.41∗ | 0.74∗ | 0.54∗ | 0.72∗ | 0.51∗ |
+|  | (0.05) | (0.05) | (0.07) | (0.08) | (0.06) | (0.06) |
+| % Urban | 0.03∗ | 0.02∗ | 0.03∗ | 0.02∗ | 0.03∗ | 0.02∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| log(Population) | 1.40∗ | 1.41∗ | 1.41∗ | 1.36∗ | 1.51∗ | 1.50∗ |
+|  | (0.15) | (0.15) | (0.18) | (0.22) | (0.15) | (0.15) |
+| % Owner Occ Housing | 0.04∗ | 0.001 | 0.06∗ | −0.01 | 0.01 | −0.04 |
+|  | (0.02) | (0.02) | (0.02) | (0.03) | (0.02) | (0.02) |
+| % Pop Growth | −0.10∗ | −0.08∗ | −0.13∗ | −0.11∗ | −0.13∗ | −0.10∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| % Pop Foreign | 0.37∗ | 0.28∗ | 0.40∗ | 0.27∗ | 0.33∗ | 0.27∗ |
+|  | (0.02) | (0.02) | (0.03) | (0.03) | (0.02) | (0.02) |
+| Lagged Dem Vote Share | 0.51∗ | 0.76∗ | 0.47∗ | 0.69∗ | 0.49∗ | 0.74∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| South | 3.36∗ | −0.51 | 2.54∗ | −1.42 | 3.06∗ | −1.01 |
+|  | (0.51) | (0.87) | (0.51) | (0.90) | (0.52) | (0.80) |
+| County at least 90% white? | No | Yes | No | Yes | No | Yes |
+| Observations | 3,093 | 2,207 | 2,682 | 1,534 | 3,093 | 2,207 |
+| R$^2$ | 0.71 | 0.78 | 0.71 | 0.77 | 0.71 | 0.78 |
+
+*Note:* $^{*}p < 0.05$
+
+Models (1) and (2) use ordinary least squares without matching or weights. Models (3) and (4) use Mahalanobis distance matching. Models (5) and (6) use Covariate Balance Propensity Score weights. Models (1), (3) and (5) use data from all available counties. Models (2), (4) and (6) only include counties that are at least 90% white. All models use April 1968 violent protest data from **?**.
+
+<!-- appendix p. 15 (printed p. 15) -->
+
+**TABLE 12.** Instrumental Variable Models of April 1968 Protests on Democratic Vote Share
+
+|  | DV: County-level Democratic Presidential Vote-share / Placebo (Rain Apr 1-3) / (1) | DV: County-level Democratic Presidential Vote-share / Placebo (Rain Apr 1-3) / (2) | DV: County-level Democratic Presidential Vote-share / Week (Apr 4-10) / (3) | DV: County-level Democratic Presidential Vote-share / Week (Apr 4-10) / (4) | DV: County-level Democratic Presidential Vote-share / Placebo (Apr 11-30) / (5) | DV: County-level Democratic Presidential Vote-share / Placebo (Apr 11-30) / (6) |
+|---|---|---|---|---|---|---|
+| Protest ‘Treatment’ | −2.13 | −1.13 | −5.56∗ | −7.94∗ | 0.43 | −1.67 |
+|  | (2.32) | (1.56) | (2.48) | (2.74) | (1.74) | (1.08) |
+| log(PC Local Gov Exp) | −0.60 | −1.05 | −1.37 | −1.03 | −0.02 | −1.05 |
+|  | (0.68) | (0.54) | (0.73) | (0.66) | (0.58) | (0.54) |
+| % HS+ Educ | 0.08∗ | 0.10∗ | 0.04 | 0.09∗ | 0.10∗ | 0.10∗ |
+|  | (0.03) | (0.02) | (0.03) | (0.03) | (0.03) | (0.02) |
+| % Black | −0.47∗ | −0.56∗ | −0.50∗ | −0.61∗ | −0.45∗ | −0.56∗ |
+|  | (0.17) | (0.23) | (0.18) | (0.31) | (0.17) | (0.23) |
+| (% Black)$^2$ | 0.01 | 0.01 | 0.01 | 0.01 | 0.01 | 0.01 |
+|  | (0.02) | (0.03) | (0.02) | (0.04) | (0.02) | (0.03) |
+| Median Age | −0.02 | −0.01 | −0.01 | 0.06 | −0.03 | −0.01 |
+|  | (0.03) | (0.04) | (0.03) | (0.05) | (0.03) | (0.03) |
+| Median Income (000s) | −0.07 | 0.03 | 0.32 | −0.01 | −0.36 | 0.02 |
+|  | (0.29) | (0.14) | (0.30) | (0.18) | (0.22) | (0.14) |
+| % Unemployment | 0.39∗ | 0.51∗ | 0.29∗ | 0.48∗ | 0.47∗ | 0.51∗ |
+|  | (0.09) | (0.08) | (0.09) | (0.09) | (0.08) | (0.08) |
+| % Urban | 0.02 | 0.02∗ | 0.003 | 0.01 | 0.03∗ | 0.02∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| log(Population) | 1.48∗ | 1.47∗ | 1.96∗ | 1.89∗ | 1.13∗ | 1.50∗ |
+|  | (0.36) | (0.23) | (0.38) | (0.32) | (0.28) | (0.22) |
+| % Owner Occ Housing | −0.001 | −0.03 | −0.02 | −0.06 | 0.01 | −0.04 |
+|  | (0.03) | (0.03) | (0.03) | (0.03) | (0.02) | (0.03) |
+| % Pop Growth | −0.08∗ | −0.10∗ | −0.08∗ | −0.09∗ | −0.08∗ | −0.10∗ |
+|  | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) | (0.01) |
+| % Pop Foreign | 0.27∗ | 0.27∗ | 0.24∗ | 0.22∗ | 0.30∗ | 0.27∗ |
+|  | (0.03) | (0.02) | (0.03) | (0.04) | (0.02) | (0.02) |
+| Lagged Dem Vote Share | 0.76∗ | 0.74∗ | 0.76∗ | 0.74∗ | 0.76∗ | 0.74∗ |
+|  | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) | (0.02) |
+| South | −0.49 | −1.02 | −0.37 | −0.84 | −0.59 | −1.01 |
+|  | (2.13) | (2.38) | (2.16) | (2.67) | (2.13) | (2.40) |
+| County at least 90% white? | Yes | Yes | Yes | Yes | Yes | Yes |
+| Matching? | No | Yes | No | Yes | No | Yes |
+| Observations | 2,207 | 2,207 | 2,207 | 2,207 | 2,207 | 2,207 |
+| R$^2$ | 0.78 | 0.78 | 0.76 | 0.70 | 0.78 | 0.78 |
+
+*Note:* $^{*}p < 0.05$
+
+Each model uses county-level cumulative rainfall in April 1968 to instrument for violent protest activity in counties that are at least 90% white. Models (1) and (2) use rainfall before King is assassinated as a placebo test. Models (3) and (4) use rainfall in the week that follows Dr. King’s the assassination in which about 95% of the protests occur. Models (5) and (6) offer a second placebo test by using rainfall in the period of April 11-30 when only five percent of protests occur. Models (2), (4) and (6) use data matched with CBPS weights as calculated in Table 11. All models use April 1968 violent protest data from **?**. Models exclusively use 90% white counties as partial $F$-tests indicate rainfall is a strong instrument for protests in that subset. As indicated in the paper, the $F$-statistics for the three tests on 90% white counties without CBPS weights, respectively, are 36.62, 38.72, 37.9, and, with CBPS weights, 30.29, 20.81, and 19.18. Partial $F$-tests suggest rainfall is a weak instrument for protests across all counties.
+
+<!-- appendix p. 16 (printed p. 16) -->
+
+**TABLE 13.** Poisson GLM Models of Police- and Protester-Initiated Violence on Change in *New York Times* Coverage of Black-Led Protests
+
+|  | *Dependent variable:* / Number of Articles / (1) | *Dependent variable:* / Number of Paragraphs / (2) | *Dependent variable:* / Page Number / (3) |
+|---|---|---|---|
+| Police violence | 0.23∗ | 0.24∗ | −0.18∗ |
+|  | (0.05) | (0.02) | (0.01) |
+| Protester violence | −0.01 | −0.03∗ | −0.14∗ |
+|  | (0.05) | (0.02) | (0.01) |
+| Police violence \* Protester violence | 0.22∗ | 0.20∗ | 0.08∗ |
+|  | (0.07) | (0.02) | (0.02) |
+| Constant | 0.17∗ | 1.95∗ | 3.33∗ |
+|  | (0.05) | (0.02) | (0.01) |
+| Year fixed effects? | Yes | Yes | Yes |
+| Observations | 3,014 | 3,014 | 2,997 |
+| Log Likelihood | -4,130.44 | -21,045.71 | -27,671.75 |
+| Akaike Inf. Crit. | 8,292.88 | 42,123.41 | 55,375.49 |
+
+*Note:* $^{*}p < 0.05$
+
+*Note:* Regression table of estimated effects of violence by police and violence by protesters on three measures of coverage of black protest events in the *New York Times*. Poisson regression used to model count data. Predictors in each model were police violence and protester violence along with fixed effects for event year. Fixed effects not shown and results robust to their exclusion. Number of articles is per event. Number of paragraphs is per article. Page number reflects distance from front page (page one). Data source: DCA.
+
+<!-- appendix p. 17 (printed p. 17) -->
+
+**TABLE 14.** Average Marginal Effects of Police and Protester Violence on *New York Times* Coverage
+
+| Predictor | AME | SE | *z* | *p* | lower | upper |
+|---|---|---|---|---|---|---|
+| **DV: Number of articles** |  |  |  |  |  |  |
+| Police violence | 0.400 | 0.054 | 7.44 | 0.000 | 0.294 | 0.505 |
+| Protester violence | 0.078 | 0.060 | 1.29 | 0.196 | -0.040 | 0.195 |
+| **DV: Number of paragraphs** |  |  |  |  |  |  |
+| Police violence | 3.768 | 0.162 | 23.29 | 0.000 | 3.451 | 4.085 |
+| Protester violence | 0.349 | 0.176 | 1.98 | 0.047 | 0.004 | 0.693 |
+| **DV: Page number** |  |  |  |  |  |  |
+| Police violence | -4.100 | 0.271 | -15.14 | 0.000 | -4.631 | -3.569 |
+| Protester violence | -3.028 | 0.253 | -11.98 | 0.000 | -3.524 | -2.533 |
+
+*Note:* Average marginal effects of violence by police and violence by protesters on three measures of coverage of black protest events in the New York Times. Poisson regression used to model count data. Predictors in each model were police violence and protester violence along with fixed effects for event year. Fixed effects not shown and results robust to their exclusion. Number of articles is per event. Number of paragraphs is per article. Page number reflects distance from front page (page one). Data source: DCA.
+
+<!-- appendix p. 18 (printed p. 18) -->
+
+## TRENDS FROM CONGRESSIONAL RECORD
+
+To account for varying document length, the same analyses were run with the daily counts divided by the number of mentions of the common word “committee." As the results were similar, I use the raw count rather than ratio as it is more easily interpreted.
+
+<!-- appendix p. 19 (printed p. 19) -->
+
+## BLACK PARTY IDENTIFICATION, 1936-2012
+
+![FIGURE 3. Scatter Plot of Black Party Identification, 1936 to 2012. Lines Drawn with Loess Smoothing Function. Data From: (?).](figures/Wasow_2020_APSR_AgendaSeeding/supp-fig3.png)
+
+**FIGURE 3.** Scatter Plot of Black Party Identification, 1936 to 2012. Lines Drawn with Loess Smoothing Function. Data From: (**?**).
+
+*Note:* Vertical dashed lines are the dates of the 1964, 1968 and 1972 presidential elections. Two wertical labels indicate dates of protest events: March on Washington (8/27/63) and “Bloody Sunday” in Selma, AL (3/7/65). Three additional labels indicate dates for elite events: enactment of the 1960 Civil Rights Act (5/6/1960), 1964 Civil Rights Act (7/2/1964) and 1965 Voting Rights Act (8/6/65). Data sources: **?**, DCA dataset.
+
+<!-- appendix p. 20 (printed p. 20) -->
+
+## GRANGER CAUSALITY TESTS
+
+Figure 9 in the main text summarizes the results of 48 pairwise Granger causality tests investigating whether time series on elite discourse, protest activity and public opinion can be used to forecast each other. There are 12 tests in Figure 9 Panel A estimating relationships between nonviolent protest and various time series on “civil rights.” Figure 9 Panel B presents results for 12 tests estimating relationships between violent protest and time series on “riots." As there are two data sets with measures of violent protest (i.e., DCA and Carter), an additional six Granger-tests are conducted but not shown as the results are substantively equivalent. Finally, 18 additional placebo tests are conducted, six for nonviolence on “riots," and 12 for the two sets of data on violent protest against time series on “civil rights." These are not referenced but not presented in Figure 9 as only one test is statistically significant. Below are the full results for all the Granter-tests. The tests are divided across two topics: civil rights and social control. More narrowly, within each topic, there are three time series. For civil rights, the data are keyword counts in the Congressional Record of “civil rights” and “voting rights,” public opinion on “civil rights” and black-led nonviolent protest activity. For social control, the three time series are elite discourse on "crime” and "riots", public opinion on “social control” and black-led violent protest activity (again, replicated with two protest data sets). In addition, each test is conducted to see if either or both are predictive of the other (e.g., does $X$ forecast $Y$ and/or does $Y$ forecast $X$).
+
+Granger causality tests require that the data within are collected on the same time scale. Protest data and elite discourse data were collected on a daily basis and public opinion data were recorded by month. Consequently, for all tests including public opinion data were aggregated to the month. In addition, all of the time series have some missing data. The public opinion data were collected at irregular frequencies. The Congressional Record and protest data have periods in which no activity were recorded (which can be interpreted as missing data or an observation of zero activity). These results use cubic spline interpolation to allow for smoother, non-linear trends.[^S-1] The main finding, that protest activity forecasts elite discourse, is robust across the different methods. When diagnostic tests <!-- appendix p. 21 (printed p. 21) --> suggested non-stationarity (as indicated by Augmented Dickey Fuller (ADF) tests), first differences were taken to transform them into stationary series. All tests were conducted with lags of one period.
+
+[^S-1]: A few observations are interpolated to have values below zero which are not meaningful for these data. Measures interpolated with a negative value are replaced with a zero value. This has no effect on the results.
+
+<!-- appendix p. 22 (printed p. 22) -->
+
+### Public opinion about civil rights vs. front page news about civil rights
+
+**TABLE 15.** Does public opinion about civil rights Granger-cause front page news about civil rights? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 0.11 | 0.7356 |
+
+**TABLE 16.** Does front page news about civil rights Granger-cause public opinion about civil rights? We reject the null hypothesis ($p < 0.0001$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 40.91 | 0.0000 |
+
+### Public opinion about civil rights vs. nonviolent protest activity
+
+**TABLE 17.** Does nonviolent protest activity Granger-cause public opinion about civil rights? We reject the null hypothesis ($p < 0.0001$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 27.96 | 0.0000 |
+
+**TABLE 18.** Does public opinion about civil rights Granger-cause nonviolent protest activity? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 1.69 | 0.1955 |
+
+### Front page news about civil rights vs. nonviolent protest activity
+
+**TABLE 19.** Does nonviolent protest activity Granger-cause front page news about civil rights? We reject the null hypothesis ($p < 0.001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 14.49 | 0.0001 |
+
+**TABLE 20.** Does front page news about civil rights Granger-cause nonviolent protest activity? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 19.02 | 0.0000 |
+
+<!-- appendix p. 23 (printed p. 23) -->
+
+### Public opinion about ‘social control’ vs. front page news about ‘riots’
+
+**TABLE 21.** Does public opinion about ‘social control’ Granger-cause front page news about ‘riots’? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 0.99 | 0.3211 |
+
+**TABLE 22.** Does front page news about ‘riots’ Granger-cause public opinion about ‘social control’? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 3.10 | 0.0802 |
+
+### Public opinion about ‘social control’ vs. violent protest activity (DCA data)
+
+**TABLE 23.** Does violent protest activity (DCA data) Granger-cause public opinion about ‘social control’? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 0.75 | 0.3866 |
+
+**TABLE 24.** Does public opinion about ‘social control’ Granger-cause violent protest activity (DCA data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 0.02 | 0.8923 |
+
+### Front page news about ‘riots’ vs. violent protest activity (DCA data)
+
+**TABLE 25.** Does violent protest activity (DCA data) Granger-cause front page news about ‘riots’? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 38.65 | 0.0000 |
+
+**TABLE 26.** Does front page news about ‘riots’ Granger-cause violent protest activity (DCA data)? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 20.94 | 0.0000 |
+
+<!-- appendix p. 24 (printed p. 24) -->
+
+### Public opinion about ‘social control’ vs. violent protest activity (Carter data)
+
+**TABLE 27.** Does violent protest activity (Carter data) Granger-cause public opinion about ‘social control’? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 92 |  |  |  |
+| 2 | 93 | -1 | 1.79 | 0.1842 |
+
+**TABLE 28.** Does public opinion about ‘social control’ Granger-cause violent protest activity (Carter data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 92 |  |  |  |
+| 2 | 93 | -1 | 0.54 | 0.4646 |
+
+### Front page news about ‘riots’ vs. violent protest activity (Carter data)
+
+**TABLE 29.** Does violent protest activity (Carter data) Granger-cause front page news about ‘riots’? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 39.11 | 0.0000 |
+
+**TABLE 30.** Does front page news about ‘riots’ Granger-cause violent protest activity (Carter data)? We reject the null hypothesis ($p < 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 6.61 | 0.0102 |
+
+### Public opinion about civil rights vs. Congressional speech about rights
+
+**TABLE 31.** Does public opinion about civil rights Granger-cause Congressional speech about rights? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 0.00 | 0.9506 |
+
+**TABLE 32.** Does Congressional speech about rights Granger-cause public opinion about civil rights? We reject the null hypothesis ($p < 0.0001$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 18.87 | 0.0000 |
+
+<!-- appendix p. 25 (printed p. 25) -->
+
+### Congressional speech about rights vs. nonviolent protest activity
+
+**TABLE 33.** Does nonviolent protest activity Granger-cause Congressional speech about rights? We reject the null hypothesis ($p < 0.001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 12.51 | 0.0004 |
+
+**TABLE 34.** Does Congressional speech about rights Granger-cause nonviolent protest activity? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 0.00 | 0.9608 |
+
+### Public opinion about ‘social control’ vs. Congressional speech about ‘riots’
+
+**TABLE 35.** Does public opinion about ‘social control’ Granger-cause Congressional speech about ‘riots’? We reject the null hypothesis ($p < 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 4.08 | 0.0451 |
+
+**TABLE 36.** Does Congressional speech about ‘riots’ Granger-cause public opinion about ‘social control’? We reject the null hypothesis ($p < 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 5.51 | 0.0202 |
+
+### Congressional speech about ‘riots’ vs. violent protest activity (DCA data)
+
+**TABLE 37.** Does violent protest activity (DCA data) Granger-cause Congressional speech about ‘riots’? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 27.05 | 0.0000 |
+
+**TABLE 38.** Does Congressional speech about ‘riots’ Granger-cause violent protest activity (DCA data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 2.59 | 0.1075 |
+
+<!-- appendix p. 26 (printed p. 26) -->
+
+### Congressional speech about ‘riots’ vs. violent protest activity (Carter data)
+
+**TABLE 39.** Does violent protest activity (Carter data) Granger-cause Congressional speech about ‘riots’? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 17.24 | 0.0000 |
+
+**TABLE 40.** Does Congressional speech about ‘riots’ Granger-cause violent protest activity (Carter data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 0.81 | 0.3695 |
+
+### Front page news about civil rights vs. Congressional speech about rights
+
+**TABLE 41.** Does front page news about civil rights Granger-cause Congressional speech about rights? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 29.76 | 0.0000 |
+
+**TABLE 42.** Does Congressional speech about rights Granger-cause front page news about civil rights? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 596.15 | 0.0000 |
+
+### Front page news about ‘riots’ vs. Congressional speech about ‘riots’
+
+**TABLE 43.** Does front page news about ‘riots’ Granger-cause Congressional speech about ‘riots’? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 83.61 | 0.0000 |
+
+**TABLE 44.** Does Congressional speech about ‘riots’ Granger-cause front page news about ‘riots’? We reject the null hypothesis ($p < 0.0001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---|---|---|---|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 90.96 | 0.0000 |
+
+<!-- appendix p. 27 (printed p. 27) -->
+
+### Front page news about ‘riots’ vs. nonviolent protest activity
+
+**TABLE 45.** Does nonviolent protest activity Granger-cause front page news about ‘riots’? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 0.11 | 0.7431 |
+
+**TABLE 46.** Does front page news about ‘riots’ Granger-cause nonviolent protest activity? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 0.02 | 0.8840 |
+
+### Congressional speech about ‘riots’ vs. nonviolent protest activity
+
+**TABLE 47.** Does nonviolent protest activity Granger-cause Congressional speech about ‘riots’? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 0.09 | 0.7609 |
+
+**TABLE 48.** Does Congressional speech about ‘riots’ Granger-cause nonviolent protest activity? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 0.24 | 0.6278 |
+
+### Public opinion about ‘social control’ vs. nonviolent protest activity
+
+**TABLE 49.** Does nonviolent protest activity Granger-cause public opinion about ‘social control’? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 1.59 | 0.2099 |
+
+**TABLE 50.** Does public opinion about ‘social control’ Granger-cause nonviolent protest activity? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 1.06 | 0.3055 |
+
+<!-- appendix p. 28 (printed p. 28) -->
+
+### Front page news about civil rights vs. violent protest activity (DCA data)
+
+**TABLE 51.** Does violent protest activity (DCA data) Granger-cause front page news about civil rights? We reject the null hypothesis ($p < 0.001$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 14.60 | 0.0001 |
+
+**TABLE 52.** Does front page news about civil rights Granger-cause violent protest activity (DCA data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 1.47 | 0.2253 |
+
+### Congressional speech about rights vs. violent protest activity (DCA data)
+
+**TABLE 53.** Does violent protest activity (DCA data) Granger-cause Congressional speech about rights? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 1.44 | 0.2309 |
+
+**TABLE 54.** Does Congressional speech about rights Granger-cause violent protest activity (DCA data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 4745 |  |  |  |
+| 2 | 4746 | -1 | 0.26 | 0.6091 |
+
+### Public opinion about civil rights vs. violent protest activity (DCA data)
+
+**TABLE 55.** Does violent protest activity (DCA data) Granger-cause public opinion about civil rights? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 0.21 | 0.6467 |
+
+**TABLE 56.** Does public opinion about civil rights Granger-cause violent protest activity (DCA data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 152 |  |  |  |
+| 2 | 153 | -1 | 0.31 | 0.5763 |
+
+<!-- appendix p. 29 (printed p. 29) -->
+
+### Front page news about civil rights vs. violent protest activity (Carter data)
+
+**TABLE 57.** Does violent protest activity (Carter data) Granger-cause front page news about civil rights? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 2.86 | 0.0912 |
+
+**TABLE 58.** Does front page news about civil rights Granger-cause violent protest activity (Carter data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 0.48 | 0.4902 |
+
+### Congressional speech about rights vs. violent protest activity (Carter data)
+
+**TABLE 59.** Does violent protest activity (Carter data) Granger-cause Congressional speech about rights? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 0.50 | 0.4789 |
+
+**TABLE 60.** Does Congressional speech about rights Granger-cause violent protest activity (Carter data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one day).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 2918 |  |  |  |
+| 2 | 2919 | -1 | 0.01 | 0.9178 |
+
+### Public opinion about civil rights vs. violent protest activity (Carter data)
+
+**TABLE 61.** Does violent protest activity (Carter data) Granger-cause public opinion about civil rights? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 92 |  |  |  |
+| 2 | 93 | -1 | 0.04 | 0.8451 |
+
+**TABLE 62.** Does public opinion about civil rights Granger-cause violent protest activity (Carter data)? We fail to reject the null hypothesis ($p > 0.05$, lag of one month).
+
+|  | Res.Df | Df | F | Pr(&gt;F) |
+|---|---:|---:|---:|---:|
+| 1 | 92 |  |  |  |
+| 2 | 93 | -1 | 0.42 | 0.5169 |
+
+<!-- appendix p. 30 (printed p. 30) -->
+
+## AUGMENTED DICKEY-FULLER TESTS FOR COINTEGRATION
+
+**TABLE 63.** Results of nine augmented Dickey-Fuller (ADF) tests to assess whether time series data about protest events exhibits cointegration with relevant time series measuring news headlines, speech in Congress and polls.
+
+| Protest Type | Outcome | Period | Lag | ADF Statistic | $p$-value | Cointegrated? |
+|---|---|---|---:|---:|---|---|
+| Nonviolent (DCA) | News: Rights | Day | 30 | -8.62 | $< 0.01$ | Yes |
+| Nonviolent (DCA) | Congress: Rights | Day | 30 | -8.35 | $< 0.01$ | Yes |
+| Nonviolent (DCA) | Polls: Civil Rights | Month | 12 | -19.63 | $< 0.01$ | Yes |
+| Violent (DCA) | News: Riots | Day | 30 | -8.72 | $< 0.01$ | Yes |
+| Violent (DCA) | Congress: Riots | Day | 30 | -7.32 | $< 0.01$ | Yes |
+| Violent (DCA) | Polls: Social Control | Month | 12 | -16.61 | $< 0.01$ | Yes |
+| Violent (Carter) | News: Riots | Day | 30 | -8.75 | $< 0.01$ | Yes |
+| Violent (Carter) | Congress: Riots | Day | 30 | -7.58 | $< 0.01$ | Yes |
+| Violent (Carter) | Polls: Social Control | Month | 12 | -16.61 | $< 0.01$ | Yes |
+
+<!-- appendix p. 31 (printed p. 31) -->
+
+## BALANCE PLOT BEFORE AND AFTER CBPS WEIGHTING
+
+![FIGURE 4. Balance Plot of the Absolute Difference of Standardized Means Between the Original, Unweighted Covariates (Dark Circles) and the CBPS Weighted Covariates (Open Circles). All Covariates Show an Improvement in Balance After CBPS Weighting.](figures/Wasow_2020_APSR_AgendaSeeding/supp-fig4.png)
+
+**FIGURE 4.** Balance Plot of the Absolute Difference of Standardized Means Between the Original, Unweighted Covariates (Dark Circles) and the CBPS Weighted Covariates (Open Circles). All Covariates Show an Improvement in Balance After CBPS Weighting.
+
+*Note:* Vertical dashed lines are the dates of the 1964, 1968 and 1972 presidential elections. Two wertical labels indicate dates of protest events: March on Washington (8/27/63) and “Bloody Sunday” in Selma, AL (3/7/65). Three additional labels indicate dates for elite events: enactment of the 1960 Civil Rights Act (5/6/1960), 1964 Civil Rights Act (7/2/1964) and 1965 Voting Rights Act (8/6/65). Data sources: **?**, DCA dataset.
+
+<!-- appendix p. 32 (printed p. 32) -->
+
+## BALANCE PLOTS BEFORE AND AFTER MATCHING WITH PANEL DATA
+
+![FIGURE 5. Covariate Balance for Panel Data with Nonviolent Protest ‘Treatment’ Using Nearest Neighbor Propensity Score Matching with a Caliper. Four Variables Above Were Identified by Prior Literature as Being Predictive of Protest Activity.](figures/Wasow_2020_APSR_AgendaSeeding/supp-fig5.png)
+
+**FIGURE 5.** Covariate Balance for Panel Data with Nonviolent Protest ‘Treatment’ Using Nearest Neighbor Propensity Score Matching with a Caliper. Four Variables Above Were Identified by Prior Literature as Being Predictive of Protest Activity.
+
+*Note:* Vertical dashed lines are the dates of the 1964, 1968 and 1972 presidential elections. Two wertical labels indicate dates of protest events: March on Washington (8/27/63) and “Bloody Sunday” in Selma, AL (3/7/65). Three additional labels indicate dates for elite events: enactment of the 1960 Civil Rights Act (5/6/1960), 1964 Civil Rights Act (7/2/1964) and 1965 Voting Rights Act (8/6/65). Data sources: **?**, DCA dataset.
+
+<!-- appendix p. 33 (printed p. 33) -->
+
+![FIGURE 6. Covariate Balance for Panel Data with Violent Protest ‘Treatment’ Using Nearest Neighbor Propensity Score Matching with a Caliper. Four Variables Above Were Identified by Prior Literature as Being Predictive of Protest Activity.](figures/Wasow_2020_APSR_AgendaSeeding/supp-fig6.png)
+
+**FIGURE 6.** Covariate Balance for Panel Data with Violent Protest ‘Treatment’ Using Nearest Neighbor Propensity Score Matching with a Caliper. Four Variables Above Were Identified by Prior Literature as Being Predictive of Protest Activity.
+
+*Note:* Vertical dashed lines are the dates of the 1964, 1968 and 1972 presidential elections. Two wertical labels indicate dates of protest events: March on Washington (8/27/63) and “Bloody Sunday” in Selma, AL (3/7/65). Three additional labels indicate dates for elite events: enactment of the 1960 Civil Rights Act (5/6/1960), 1964 Civil Rights Act (7/2/1964) and 1965 Voting Rights Act (8/6/65). Data sources: **?**, DCA dataset.
+
+<!-- appendix p. 34 (printed p. 43) -->
+
+## REFERENCES
+
+<!-- the PDF prints the heading REFERENCES with no entries -->
